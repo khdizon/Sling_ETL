@@ -1,0 +1,1622 @@
+table_name,column_name,data_type
+ott_acnt_accrl_mo,acnt_sk,bigint
+ott_acnt_accrl_mo,chrg_dttm,timestamp without time zone
+ott_acnt_accrl_mo,chrg_dt,date
+ott_acnt_accrl_mo,pln_sk,integer
+ott_acnt_accrl_mo,pkg_sk,integer
+ott_acnt_accrl_mo,enttlmnt_sk,integer
+ott_acnt_accrl_mo,txn_typ_cd,character varying
+ott_acnt_accrl_mo,chrg_typ_cd,character varying
+ott_acnt_accrl_mo,ln_of_bus_cd,character varying
+ott_acnt_accrl_mo,gl_pkg_ctg_sk,integer
+ott_acnt_accrl_mo,chrg_rsn_cd,character varying
+ott_acnt_accrl_mo,invce_sk,bigint
+ott_acnt_accrl_mo,invce_dtl_sk,bigint
+ott_acnt_accrl_mo,txn_invce_sk,bigint
+ott_acnt_accrl_mo,svc_strt_dt,date
+ott_acnt_accrl_mo,svc_end_dt,date
+ott_acnt_accrl_mo,amt,numeric
+ott_acnt_accrl_mo,prtd_dy_cnt,numeric
+ott_acnt_accrl_mo,ernd_rev_dy_cnt,numeric
+ott_acnt_accrl_mo,unernd_rev_dy_cnt,numeric
+ott_acnt_accrl_mo,dly_prtd_amt,numeric
+ott_acnt_accrl_mo,ernd_amt,numeric
+ott_acnt_accrl_mo,unernd_amt,numeric
+ott_acnt_accrl_mo,rltv_fair_prc_ind,boolean
+ott_acnt_accrl_mo,fair_val_amt,numeric
+ott_acnt_accrl_mo,rltv_fair_val_amt,numeric
+ott_acnt_accrl_mo,rltv_ernd_amt,numeric
+ott_acnt_accrl_mo,rltv_unernd_amt,numeric
+ott_acnt_accrl_mo,grss_amt,numeric
+ott_acnt_accrl_mo,disc_amt,numeric
+ott_acnt_accrl_mo,dly_prtd_grss_amt,numeric
+ott_acnt_accrl_mo,dly_prtd_disc_amt,numeric
+ott_acnt_accrl_mo,rltv_ernd_grss_amt,numeric
+ott_acnt_accrl_mo,rltv_ernd_disc_amt,numeric
+ott_acnt_accrl_mo,rltv_unernd_grss_amt,numeric
+ott_acnt_accrl_mo,rltv_unernd_disc_amt,numeric
+ott_acnt_accrl_mo,ernd_grss_amt,numeric
+ott_acnt_accrl_mo,ernd_disc_amt,numeric
+ott_acnt_accrl_mo,unernd_grss_amt,numeric
+ott_acnt_accrl_mo,unernd_disc_amt,numeric
+ott_acnt_accrl_mo,rltv_ernd_grss_tx_amt,numeric
+ott_acnt_accrl_mo,bas_pkg_ln_of_bus_cd,character varying
+ott_acnt_accrl_mo,rltv_ernd_agnt_eqpmt_disc_amt,numeric
+ott_acnt_accrl_mo,rltv_unernd_agnt_eqpmt_disc_amt,numeric
+ott_acnt_accrl_mo,agnt_eqpmt_amt,numeric
+ott_acnt_accrl_mo,rltv_agnt_ernd_amt,numeric
+ott_acnt_accrl_mo,rltv_agnt_unernd_amt,numeric
+ott_acnt_accrl_mo,rltv_agnt_ernd_grss_amt,numeric
+ott_acnt_accrl_mo,rltv_agnt_unernd_grss_amt,numeric
+ott_acnt_accrl_mo,rltv_agnt_ernd_disc_amt,numeric
+ott_acnt_accrl_mo,rltv_agnt_unernd_disc_amt,numeric
+ott_acnt_accrl_mo,updtd_by,character varying
+ott_acnt_accrl_mo,updtd_dttm,timestamp without time zone
+ott_acnt_brwsr_fngr_prnts,acnt_brwsr_fngr_prnts_sk,bigint
+ott_acnt_brwsr_fngr_prnts,brwsr_fngr_prnts_src_key,bigint
+ott_acnt_brwsr_fngr_prnts,act_cls_cd,character varying
+ott_acnt_brwsr_fngr_prnts,brwsr_fngr_prnts_txt,character varying
+ott_acnt_brwsr_fngr_prnts,brwsr_typ_cd,character varying
+ott_acnt_brwsr_fngr_prnts,brwsr_typ_desc,character varying
+ott_acnt_brwsr_fngr_prnts,tz_offst_val_in_mnt,character varying
+ott_acnt_brwsr_fngr_prnts,brwsr_lang_cd,character varying
+ott_acnt_brwsr_fngr_prnts,cooks_enbld_ind,boolean
+ott_acnt_brwsr_fngr_prnts,dvce_used_cd,character varying
+ott_acnt_brwsr_fngr_prnts,dvce_used_desc,character varying
+ott_acnt_brwsr_fngr_prnts,creat_app_cd,character varying
+ott_acnt_brwsr_fngr_prnts,pln_sk,integer
+ott_acnt_brwsr_fngr_prnts,clnt_ip_addr,character varying
+ott_acnt_brwsr_fngr_prnts,rqst_pyld_txt,character varying
+ott_acnt_brwsr_fngr_prnts,src_creat_dttm,timestamp without time zone
+ott_acnt_brwsr_fngr_prnts,src_updtd_dttm,timestamp without time zone
+ott_acnt_brwsr_fngr_prnts,add_pkg_mx_txt,character varying
+ott_acnt_brwsr_fngr_prnts,rmvd_pkg_mx_txt,character varying
+ott_acnt_brwsr_fngr_prnts,pkg_mx_txt,character varying
+ott_acnt_brwsr_fngr_prnts,updtd_by,character varying
+ott_acnt_brwsr_fngr_prnts,updtd_dttm,timestamp without time zone
+ott_acnt_cc_vfcn,acnt_crd_vfcn_sk,bigint
+ott_acnt_cc_vfcn,cc_vfcn_src_key,bigint
+ott_acnt_cc_vfcn,acnt_sk,bigint
+ott_acnt_cc_vfcn,clnt_ip_addr,character varying
+ott_acnt_cc_vfcn,cc_vfcn_sts_cd,character varying
+ott_acnt_cc_vfcn,src_creat_dttm,timestamp without time zone
+ott_acnt_cc_vfcn,src_updtd_dttm,timestamp without time zone
+ott_acnt_cc_vfcn,updtd_by,character varying
+ott_acnt_cc_vfcn,updtd_dttm,timestamp without time zone
+ott_acnt_dvce_imprsn,acnt_sk,bigint
+ott_acnt_dvce_imprsn,pkg_sk,integer
+ott_acnt_dvce_imprsn,pln_sk,integer
+ott_acnt_dvce_imprsn,ten_ft_ind,boolean
+ott_acnt_dvce_imprsn,vw_tm,numeric
+ott_acnt_dvce_imprsn,src_cd,character varying
+ott_acnt_dvce_imprsn,dup_ind,boolean
+ott_acnt_dvce_imprsn,updtd_by,character varying
+ott_acnt_dvce_imprsn,updtd_dttm,timestamp without time zone
+ott_acnt_eqpmt_inst,acnt_sk,bigint
+ott_acnt_prfl,acnt_sk,bigint
+ott_acnt_prfl,src_stet_addr_sk,bigint
+ott_acnt_prfl,eml_addr_sk,bigint
+ott_acnt_prfl,acnt_sts_cd,character varying
+ott_acnt_prfl,hse_stet_addr_sk,bigint
+ott_acnt_prfl,afflt_sls_chnl_sk,integer
+ott_acnt_prfl,afflt_agnt_id,character varying
+ott_acnt_prfl,afflt_stre_id,character varying
+ott_acnt_prfl,blg_prtnr_sls_chnl_sk,integer
+ott_acnt_prfl,acnt_creat_app_cd,character varying
+ott_acnt_prfl,acnt_lst_updt_app_cd,character varying
+ott_acnt_prfl,acnt_prfl_creat_app_cd,character varying
+ott_acnt_prfl,acnt_prfl_lst_updt_app_cd,character varying
+ott_acnt_prfl,creat_emp_sk,bigint
+ott_acnt_prfl,lst_updt_emp_sk,bigint
+ott_acnt_prfl,co_acnt_ind,smallint
+ott_acnt_prfl,acnt_clfn_cd,character varying
+ott_acnt_prfl,acnt_creat_cart_cd,character varying
+ott_acnt_prfl,acnt_creat_brwsr_sk,integer
+ott_acnt_prfl,acnt_creat_dvce_char_sk,bigint
+ott_acnt_prfl,acnt_actvtn_creat_cart_cd,character varying
+ott_acnt_prfl,acnt_actvtn_brwsr_sk,integer
+ott_acnt_prfl,acnt_actvtn_dvce_char_sk,bigint
+ott_acnt_prfl,cj_afflt_ind,boolean
+ott_acnt_prfl,endg_eff_dt,date
+ott_acnt_prfl,cur_ind,boolean
+ott_acnt_prfl,updtd_by,character varying
+ott_acnt_prfl,updtd_dttm,timestamp without time zone
+ott_acnt_sls_chnl,acnt_sls_chnl_sk,bigint
+ott_acnt_sls_chnl,acnt_sk,bigint
+ott_acnt_sls_chnl,acnt_actvtn_dt,date
+ott_acnt_sls_chnl,pt_of_sls_nm,character varying
+ott_acnt_sls_chnl,sllr_typ_nm,character varying
+ott_acnt_sls_chnl,sllr_sb_typ_nm,character varying
+ott_acnt_sls_chnl,sllr_nm,character varying
+ott_acnt_sls_chnl,sllr_str_cd,character varying
+ott_acnt_sls_chnl,drvd_pt_of_sls_nm,character varying
+ott_acnt_sls_chnl,drvd_sllr_typ_nm,character varying
+ott_acnt_sls_chnl,bgn_eff_dt,date
+ott_acnt_sls_chnl,endg_eff_dt,date
+ott_acnt_sls_chnl,updtd_by,character varying
+ott_acnt_sls_chnl,updtd_dttm,timestamp without time zone
+ott_acnt_sum,ott_acnt_sum_sk,integer
+ott_acnt_sum,rpt_dt,date
+ott_acnt_sum,tm_pd,character varying
+ott_acnt_sum,blg_prtnr_cd,character varying
+ott_acnt_sum,pt_of_sls_nm,character varying
+ott_acnt_sum,ctg_nm,character varying
+ott_acnt_sum,acnt_pd_clsg_bas_cnt,integer
+ott_acnt_sum,updtd_by,character varying
+ott_acnt_sum,updtd_dttm,timestamp without time zone
+ott_acnt_svcs,acnt_svcs_sk,bigint
+ott_acnt_svcs,acnt_sk,bigint
+ott_acnt_svcs,subsn_sk,bigint
+ott_acnt_svcs,pkg_sk,integer
+ott_acnt_svcs,pkg_orig_actvtn_dt,date
+ott_acnt_svcs,pkg_orig_actvtn_tm,character varying
+ott_acnt_svcs,pkg_actvtn_dt,date
+ott_acnt_svcs,pkg_actvtn_tm,character varying
+ott_acnt_svcs,pkg_trl_strt_dt,date
+ott_acnt_svcs,pkg_trl_strt_tm,character varying
+ott_acnt_svcs,pkg_trl_end_dt,date
+ott_acnt_svcs,pkg_trl_end_tm,character varying
+ott_acnt_svcs,pkg_xncl_dt,date
+ott_acnt_svcs,pkg_xncl_tm,character varying
+ott_acnt_svcs,pkg_dcnct_dt,date
+ott_acnt_svcs,pkg_dcnct_tm,character varying
+ott_acnt_svcs,pkg_sts_cd,character varying
+ott_acnt_svcs,fr_trl_ind,boolean
+ott_acnt_svcs,rll_to_same_pkg_ind,boolean
+ott_acnt_svcs,xncl_subsn_ind,boolean
+ott_acnt_svcs,dcnct_subsn_ind,boolean
+ott_acnt_svcs,cur_subsn_strt_dt,date
+ott_acnt_svcs,cur_subsn_strt_tm,character varying
+ott_acnt_svcs,cur_subsn_end_dt,date
+ott_acnt_svcs,cur_subsn_end_tm,character varying
+ott_acnt_svcs,bgn_eff_dt,date
+ott_acnt_svcs,endg_eff_dt,date
+ott_acnt_svcs,cur_ind,boolean
+ott_acnt_svcs,updtd_by,character varying
+ott_acnt_svcs,updtd_dttm,timestamp without time zone
+ott_brwsr,brwsr_sk,integer
+ott_brwsr,brwsr_ver_nbr,character varying
+ott_brwsr,updtd_by,character varying
+ott_brwsr,updtd_dttm,timestamp without time zone
+ott_chnl,chnl_sk,integer
+ott_chnl,chnl_src_key,character varying
+ott_chnl,chnl_id,character varying
+ott_chnl,clfn_sk,integer
+ott_chnl,chnl_imge_nm,character varying
+ott_chnl,chnl_cll_sign_nm,character varying
+ott_chnl,chnl_ttl_nm,character varying
+ott_chnl,chnl_bus_nm,character varying
+ott_chnl,bgn_eff_dt,date
+ott_chnl,endg_eff_dt,date
+ott_chnl,cur_ind,boolean
+ott_chnl,updtd_by,character varying
+ott_chnl,updtd_dttm,timestamp without time zone
+ott_clnt_app,clnt_app_sk,integer
+ott_clnt_app,clnt_app_src_key,integer
+ott_clnt_app,clnt_app_nm,character varying
+ott_clnt_app,updtd_by,character varying
+ott_clnt_app,updtd_dttm,timestamp without time zone
+ott_dly_acnt_sum,dly_acnt_sum_sk,integer
+ott_dly_acnt_sum,ss_dt,date
+ott_dly_acnt_sum,tm_pd,character varying
+ott_dly_acnt_sum,blg_prtnr_cd,character varying
+ott_dly_acnt_sum,ln_of_bus_cd,character varying
+ott_dly_acnt_sum,ctg_nm,character varying
+ott_dly_acnt_sum,acnt_opng_bas_cnt,integer
+ott_dly_acnt_sum,acnt_clsg_bas_cnt,integer
+ott_dly_acnt_sum,acnt_grss_actvtn_cnt,integer
+ott_dly_acnt_sum,acnt_new_actvtn_cnt,integer
+ott_dly_acnt_sum,acnt_frmr_actvtn_cnt,integer
+ott_dly_acnt_sum,acnt_bndl_actvtn_cnt,integer
+ott_dly_acnt_sum,acnt_trl_cnv_cnt,integer
+ott_dly_acnt_sum,acnt_dcnct_cnt,integer
+ott_dly_acnt_sum,acnt_net_add_cnt,integer
+ott_dly_acnt_sum,updtd_by,character varying
+ott_dly_acnt_sum,updtd_dttm,timestamp without time zone
+ott_emp_acnt_ref,emp_acnt_ref_sk,integer
+ott_emp_acnt_ref,emp_nbr,integer
+ott_emp_acnt_ref,acnt_sk,bigint
+ott_emp_acnt_ref,eml_addr_sk,bigint
+ott_emp_acnt_ref,bgn_eff_dt,date
+ott_emp_acnt_ref,endg_eff_dt,date
+ott_emp_acnt_ref,cur_ind,boolean
+ott_emp_acnt_ref,updtd_by,character varying
+ott_emp_acnt_ref,updtd_dttm,timestamp without time zone
+ott_eqpmt,eqpmt_sk,bigint
+ott_eqpmt,serl_nbr,character varying
+ott_eqpmt,mdl_nbr,character varying
+ott_eqpmt,prt_nbr,character varying
+ott_eqpmt,mnfctrg_nm,character varying
+ott_eqpmt,mnfctrg_dt,date
+ott_eqpmt,inv_dt,date
+ott_eqpmt,main_pallet_id,character varying
+ott_eqpmt,pallet_id,character varying
+ott_eqpmt,pallet_mnfctrg_dt,date
+ott_eqpmt,updtd_by,character varying
+ott_eqpmt,updtd_dttm,timestamp without time zone
+ott_eqpmt_mdl,eqpmt_mdl_sk,integer
+ott_eqpmt_mdl,eqpmt_mdl_id,character varying
+ott_eqpmt_mdl,eqpmt_mdl_cd,character varying
+ott_eqpmt_mdl,eqpmt_mdl_nm,character varying
+ott_eqpmt_mdl,eqpmt_mdl_cst,numeric
+ott_eqpmt_mdl,eqpmt_mdl_prc,numeric
+ott_eqpmt_mdl,bgn_eff_dt,date
+ott_eqpmt_mdl,endg_eff_dt,date
+ott_eqpmt_mdl,cur_ind,boolean
+ott_eqpmt_mdl,updtd_by,character varying
+ott_eqpmt_mdl,updtd_dttm,timestamp without time zone
+ott_pkg_chnl,pkg_chnl_sk,integer
+ott_pkg_chnl,pkg_sk,integer
+ott_pkg_chnl,chnl_sk,integer
+ott_pkg_chnl,bgn_eff_dt,date
+ott_pkg_chnl,endg_eff_dt,date
+ott_pkg_chnl,cur_ind,boolean
+ott_pkg_chnl,updtd_by,character varying
+ott_pkg_chnl,updtd_dttm,timestamp without time zone
+ott_pkg_fair_val,pkg_fair_val_sk,integer
+ott_pkg_fair_val,pkg_sk,integer
+ott_pkg_fair_val,fair_val_amt,numeric
+ott_pkg_fair_val,nbr_of_prpd_mths_calc_ind,integer
+ott_pkg_fair_val,strt_dt,date
+ott_pkg_fair_val,end_dt,date
+ott_pkg_fair_val,bgn_eff_dt,date
+ott_pkg_fair_val,endg_eff_dt,date
+ott_pkg_fair_val,cur_ind,boolean
+ott_pkg_fair_val,agnt_eqpmt_amt,numeric
+ott_pkg_fair_val,updtd_by,character varying
+ott_pkg_fair_val,updtd_dttm,timestamp without time zone
+ott_prtnr_dly_acnt_sum,prtnr_dly_acnt_sum_sk,integer
+ott_prtnr_dly_acnt_sum,ss_dt,date
+ott_prtnr_dly_acnt_sum,sls_chnl_sk,integer
+ott_prtnr_dly_acnt_sum,pkg_nm,character varying
+ott_prtnr_dly_acnt_sum,vndr_sku_nm,character varying
+ott_prtnr_dly_acnt_sum,acnt_trl_opng_bas_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_trl_new_actvtn_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_trl_dcnct_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_trl_rtn_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_trl_clsg_bas_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_pd_opng_bas_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_pd_new_actvtn_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_pd_dcnct_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_pd_rtn_cnt,integer
+ott_prtnr_dly_acnt_sum,acnt_pd_clsg_bas_cnt,integer
+ott_prtnr_dly_acnt_sum,updtd_by,character varying
+ott_prtnr_dly_acnt_sum,updtd_dttm,timestamp without time zone
+ott_prtnr_dly_subsn_sum,prtnr_dly_subsn_sum_sk,integer
+ott_prtnr_dly_subsn_sum,subsn_dt,date
+ott_prtnr_dly_subsn_sum,sls_chnl_sk,integer
+ott_prtnr_dly_subsn_sum,pkg_nm,character varying
+ott_prtnr_dly_subsn_sum,subsn_trl_cnt,integer
+ott_prtnr_dly_subsn_sum,subsn_pd_cnt,integer
+ott_prtnr_dly_subsn_sum,subsn_rtn_cnt,integer
+ott_prtnr_dly_subsn_sum,updtd_by,character varying
+ott_prtnr_dly_subsn_sum,updtd_dttm,timestamp without time zone
+ott_clfn,clfn_sk,integer
+ott_clfn,clfn_src_key,integer
+ott_clfn,clfn_nm,character varying
+ott_clfn,clfn_typ_cd,character varying
+ott_clfn,clfn_ctg_sk,integer
+ott_clfn,updtd_by,character varying
+ott_clfn,updtd_dttm,timestamp without time zone
+ott_clfn_ctg,clfn_ctg_sk,integer
+ott_clfn_ctg,clfn_ctg_src_key,integer
+ott_clfn_ctg,clfn_ctg_nm,character varying
+ott_clfn_ctg,updtd_by,character varying
+ott_clfn_ctg,updtd_dttm,timestamp without time zone
+ott_enttlmnt,enttlmnt_sk,integer
+ott_enttlmnt,enttlmnt_id,character varying
+ott_enttlmnt,enttlmnt_src_key,integer
+ott_enttlmnt,enttlmnt_nm,character varying
+ott_enttlmnt,enttlmnt_prc,numeric
+ott_enttlmnt,enttlmnt_typ_nm,character varying
+ott_enttlmnt,frnchs_asset_id,character varying
+ott_enttlmnt,frnchs_asset_sk,integer
+ott_enttlmnt,bgn_eff_dt,date
+ott_enttlmnt,endg_eff_dt,date
+ott_enttlmnt,cur_ind,boolean
+ott_enttlmnt,updtd_by,character varying
+ott_enttlmnt,updtd_dttm,timestamp without time zone
+ott_enttlmnt_act,ott_enttlmnt_act_sk,bigint
+ott_enttlmnt_act,enttlmnt_sk,integer
+ott_enttlmnt_act,acnt_sk,bigint
+ott_enttlmnt_act,enttlmnt_creat_dttm,timestamp without time zone
+ott_enttlmnt_act,enttlmnt_creat_dt,date
+ott_enttlmnt_act,enttlmnt_suspndd_dttm,timestamp without time zone
+ott_enttlmnt_act,enttlmnt_suspndd_dt,date
+ott_enttlmnt_act,enttlmnt_transctd_dttm,timestamp without time zone
+ott_enttlmnt_act,enttlmnt_vwng_strt_dttm,timestamp without time zone
+ott_enttlmnt_act,creat_app_cd,character varying
+ott_enttlmnt_act,lst_updt_app_cd,character varying
+ott_enttlmnt_act,enttlmnt_recpt_id,character varying
+ott_enttlmnt_act,enttlmnt_blg_dttm,timestamp without time zone
+ott_enttlmnt_act,cart_flw_nm,character varying
+ott_enttlmnt_act,updtd_by,character varying
+ott_enttlmnt_act,updtd_dttm,timestamp without time zone
+ott_acnt_new,acnt_sk,bigint
+ott_acnt_new,acnt_id,character varying
+ott_acnt_new,ums_usr_id,integer
+ott_acnt_new,acnt_frst_nm,character varying
+ott_acnt_new,acnt_lst_nm,character varying
+ott_acnt_new,acnt_crtn_dttm,timestamp without time zone
+ott_acnt_new,acnt_crtn_dt,date
+ott_acnt_new,dsh_acnt_sk,integer
+ott_acnt_new,ums_acnt_orig_crtn_dttm,timestamp without time zone
+ott_acnt_new,ums_acnt_orig_crtn_dt,date
+ott_acnt_new,ums_acnt_actvtn_dttm,timestamp without time zone
+ott_acnt_new,ums_acnt_actvtn_dt,date
+ott_acnt_new,axm_usr_id,integer
+ott_acnt_new,prtnr_usr_id,character varying
+ott_acnt_new,pri_lang_txt,character varying
+ott_acnt_new,cur_bll_cycl_nbr,integer
+ott_acnt_new,src_cd,character varying
+ott_acnt_new,bgn_eff_dt,date
+ott_acnt_new,endg_eff_dt,date
+ott_acnt_new,cur_ind,boolean
+ott_acnt_new,creat_by,character varying
+ott_acnt_new,creat_dttm,timestamp without time zone
+ott_acnt_new,updtd_by,character varying
+ott_acnt_new,updtd_dttm,timestamp without time zone
+ott_pkg,pkg_sk,integer
+ott_pkg,pkg_src_key,integer
+ott_pkg,clfn_sk,integer
+ott_pkg,pkg_id,character varying
+ott_pkg,pkg_nm,character varying
+ott_pkg,pkg_prc,numeric
+ott_pkg,pkg_typ_sk,integer
+ott_pkg,pkg_sts_cd,character varying
+ott_pkg,pkg_ln_of_bus_cd,character varying
+ott_pkg,pkg_lang_cd,character varying
+ott_pkg,pkg_strt_dttm,timestamp without time zone
+ott_pkg,pkg_end_dttm,timestamp without time zone
+ott_pkg,pkg_prvw_tm_in_hrs,numeric
+ott_pkg,pkg_prvw_typ_txt,character varying
+ott_pkg,pkg_prvw_strt_dttm,timestamp without time zone
+ott_pkg,pkg_prvw_end_dttm,timestamp without time zone
+ott_pkg,frmm_pkg_ind,boolean
+ott_pkg,pkg_sku_txt,character varying
+ott_pkg,stndln_pkg_incl_ind,boolean
+ott_pkg,bgn_eff_dt,date
+ott_pkg,endg_eff_dt,date
+ott_pkg,cur_ind,boolean
+ott_pkg,updtd_by,character varying
+ott_pkg,updtd_dttm,timestamp without time zone
+ott_pkg_typ,pkg_typ_sk,integer
+ott_pkg_typ,pkg_typ_cd,character varying
+ott_pkg_typ,pkg_typ_nm,character varying
+ott_pkg_typ,pkg_typ_desc,character varying
+ott_pkg_typ,tx_cd,character varying
+ott_pkg_typ,enbld_ind,boolean
+ott_pkg_typ,bgn_eff_dt,date
+ott_pkg_typ,endg_eff_dt,date
+ott_pkg_typ,cur_ind,boolean
+ott_pkg_typ,updtd_by,character varying
+ott_pkg_typ,updtd_dttm,timestamp without time zone
+ott_acnt_key,acnt_sk,bigint
+ott_acnt_key,ums_usr_id,bigint
+ott_acnt_key,dat_src_cd,character varying
+ott_acnt_key,updtd_by,character varying
+ott_acnt_key,updtd_dttm,timestamp without time zone
+ott_acnt_subsn,subsn_sk,bigint
+ott_acnt_subsn,pln_sk,integer
+ott_acnt_subsn,acnt_sk,bigint
+ott_acnt_subsn,subsn_id,character varying
+ott_acnt_subsn,pln_actvtn_dttm,timestamp without time zone
+ott_acnt_subsn,pln_actvtn_dt,date
+ott_acnt_subsn,pln_xncl_dttm,timestamp without time zone
+ott_acnt_subsn,pln_xncl_dt,date
+ott_acnt_subsn,rcrng_amt,numeric
+ott_acnt_subsn,tot_blg_cycl_cnt,integer
+ott_acnt_subsn,rmnng_blg_cycl_cnt,integer
+ott_acnt_subsn,subsn_sts_cd,character varying
+ott_acnt_subsn,subsn_trl_strt_dttm,timestamp without time zone
+ott_acnt_subsn,subsn_trl_strt_dt,date
+ott_acnt_subsn,subsn_trl_end_dttm,timestamp without time zone
+ott_acnt_subsn,subsn_trl_end_dt,date
+ott_acnt_subsn,subsn_strt_dttm,timestamp without time zone
+ott_acnt_subsn,subsn_strt_dt,date
+ott_acnt_subsn,subsn_end_dttm,timestamp without time zone
+ott_acnt_subsn,subsn_end_dt,date
+ott_acnt_subsn,pln_expd_dttm,timestamp without time zone
+ott_acnt_subsn,pln_expd_dt,date
+ott_acnt_subsn,updtd_by,character varying
+ott_acnt_subsn,updtd_dttm,timestamp without time zone
+ott_dvce_usg,dvce_usg_sk,bigint
+ott_dvce_usg,dvce_id,character varying
+ott_dvce_usg,dvce_typ_cd,character varying
+ott_dvce_usg,dvce_typ_nm,character varying
+ott_dvce_usg,dvce_typ_ver,character varying
+ott_dvce_usg,dvce_frst_used_dt,date
+ott_dvce_usg,dvce_lst_used_dt,date
+ott_dvce_usg,dvce_key,character varying
+ott_dvce_usg,dvce_creat_dttm,timestamp without time zone
+ott_dvce_usg,dvce_dcnct_dttm,timestamp without time zone
+ott_dvce_usg,updtd_by,character varying
+ott_dvce_usg,updtd_dttm,timestamp without time zone
+ott_pln,pln_sk,integer
+ott_pln,pln_src_key,integer
+ott_pln,pln_cd,character varying
+ott_pln,pln_nm,character varying
+ott_pln,blg_cycl_lnth,integer
+ott_pln,pln_prc,numeric
+ott_pln,rfndbl_ind,integer
+ott_pln,pln_intvl_lnth,integer
+ott_pln,bgn_eff_dt,date
+ott_pln,endg_eff_dt,date
+ott_pln,cur_ind,boolean
+ott_pln,updtd_by,character varying
+ott_pln,updtd_dttm,timestamp without time zone
+ott_extrnl_prtnr,extrnl_prtnr_sk,integer
+ott_extrnl_prtnr,extrnl_prtnr_id,character varying
+ott_extrnl_prtnr,extrnl_prtnr_src_key,character varying
+ott_extrnl_prtnr,extrnl_prtnr_nm,character varying
+ott_extrnl_prtnr,extrnl_prtnr_crtn_dttm,timestamp without time zone
+ott_extrnl_prtnr,bgn_eff_dt,date
+ott_extrnl_prtnr,endg_eff_dt,date
+ott_extrnl_prtnr,cur_ind,boolean
+ott_extrnl_prtnr,updtd_by,character varying
+ott_extrnl_prtnr,updtd_dttm,timestamp without time zone
+ott_pmtn,pmtn_sk,integer
+ott_pmtn,pmtn_src_key,character varying
+ott_pmtn,pmtn_cd,character varying
+ott_pmtn,pmtn_cd_pfx_txt,character varying
+ott_pmtn,pmtn_typ_cd,character varying
+ott_pmtn,pmtn_sts_cd,character varying
+ott_pmtn,pmtn_extrnl_prtnr_sk,integer
+ott_pmtn,pmtn_strt_dttm,timestamp without time zone
+ott_pmtn,pmtn_end_dttm,timestamp without time zone
+ott_pmtn,pmtn_max_rdmtn_nbr,integer
+ott_pmtn,src_cd,character varying
+ott_pmtn,tot_rev_amt,numeric
+ott_pmtn,tot_cst_amt,numeric
+ott_pmtn,bgn_eff_dt,date
+ott_pmtn,endg_eff_dt,date
+ott_pmtn,cur_ind,boolean
+ott_pmtn,updtd_by,character varying
+ott_pmtn,updtd_dttm,timestamp without time zone
+ott_prtnr_pkg_xref,prtnr_pkg_sk,integer
+ott_prtnr_pkg_xref,pkg_sk,integer
+ott_prtnr_pkg_xref,prtnr_pkg_src_key,character varying
+ott_prtnr_pkg_xref,pkg_disc_prc,numeric
+ott_prtnr_pkg_xref,src_cd,character varying
+ott_prtnr_pkg_xref,bgn_eff_dt,date
+ott_prtnr_pkg_xref,endg_eff_dt,date
+ott_prtnr_pkg_xref,cur_ind,boolean
+ott_prtnr_pkg_xref,updtd_by,character varying
+ott_prtnr_pkg_xref,updtd_dttm,timestamp without time zone
+ott_xncl_rsn,xncl_rsn_sk,bigint
+ott_xncl_rsn,xncl_rsn_txt,character varying
+ott_xncl_rsn,xncl_sb_rsn_txt,character varying
+ott_xncl_rsn,creat_dt,date
+ott_xncl_rsn,updtd_by,character varying
+ott_xncl_rsn,updtd_dttm,timestamp without time zone
+ott_web_tst_evnt,web_tst_evnt_sk,bigint
+ott_web_tst_evnt,acnt_sk,bigint
+ott_web_tst_evnt,web_tst_ctg_cd,character varying
+ott_web_tst_evnt,tst_nm,character varying
+ott_web_tst_evnt,actn_nm,character varying
+ott_web_tst_evnt,evnt_dttm,timestamp without time zone
+ott_web_tst_evnt,evnt_dt,date
+ott_web_tst_evnt,updtd_by,character varying
+ott_web_tst_evnt,updtd_dttm,timestamp without time zone
+ott_prtnr_pkg,prtnr_pkg_sk,integer
+ott_prtnr_pkg,prtnr_pkg_id,character varying
+ott_prtnr_pkg,prtnr_pkg_nm,character varying
+ott_prtnr_pkg,prtnr_pkg_prc,numeric
+ott_prtnr_pkg,prtnr_pkg_typ_cd,character varying
+ott_prtnr_pkg,prtnr_pkg_sts_cd,character varying
+ott_prtnr_pkg,blg_prtnr_cd,character varying
+ott_prtnr_pkg,pt_of_sls_nm,character varying
+ott_prtnr_pkg,tier_id,integer
+ott_prtnr_pkg,tier_nm,character varying
+ott_prtnr_pkg,mkt_id,integer
+ott_prtnr_pkg,mkt_nm,character varying
+ott_prtnr_pkg,src_cd,character varying
+ott_prtnr_pkg,bgn_eff_dt,date
+ott_prtnr_pkg,endg_eff_dt,date
+ott_prtnr_pkg,cur_ind,boolean
+ott_prtnr_pkg,updtd_by,character varying
+ott_prtnr_pkg,updtd_dttm,timestamp without time zone
+ott_dvce_char,dvce_char_sk,bigint
+ott_dvce_char,dvce_mk_nm,character varying
+ott_dvce_char,dvce_mdl_nm,character varying
+ott_dvce_char,dvce_oprtg_sys_nm,character varying
+ott_dvce_char,dvce_oprtg_sys_ver_nbr,character varying
+ott_dvce_char,dvce_pltfm_nm,character varying
+ott_dvce_char,dvce_ctg_nm,character varying
+ott_dvce_char,updtd_by,character varying
+ott_dvce_char,updtd_dttm,timestamp without time zone
+ott_enttlmnt_txn,enttlmnt_txn_sk,bigint
+ott_enttlmnt_txn,acnt_sk,bigint
+ott_enttlmnt_txn,enttlmnt_sk,integer
+ott_enttlmnt_txn,clnt_app_sk,integer
+ott_enttlmnt_txn,enttlmnt_txn_creat_dttm,timestamp without time zone
+ott_enttlmnt_txn,enttlmnt_txn_creat_dt,date
+ott_enttlmnt_txn,bll_dttm,timestamp without time zone
+ott_enttlmnt_txn,bll_dt,date
+ott_enttlmnt_txn,bas_amt,numeric
+ott_enttlmnt_txn,finl_amt,numeric
+ott_enttlmnt_txn,tx_amt,numeric
+ott_enttlmnt_txn,updtd_by,character varying
+ott_enttlmnt_txn,updtd_dttm,timestamp without time zone
+ott_subsn_xncl_rsn,subsn_xncl_rsn_sk,bigint
+ott_subsn_xncl_rsn,subsn_xncl_rsn_id,integer
+ott_subsn_xncl_rsn,subsn_sk,bigint
+ott_subsn_xncl_rsn,xncl_rsn_sk,bigint
+ott_subsn_xncl_rsn,subsn_xncl_rsn_creat_dt,date
+ott_subsn_xncl_rsn,cmt_txt,character varying
+ott_subsn_xncl_rsn,rtg_cd,character varying
+ott_subsn_xncl_rsn,updtd_by,character varying
+ott_subsn_xncl_rsn,updtd_dttm,timestamp without time zone
+ott_extrnl_prtnr_acnt_dtl,extrnl_prtnr_acnt_dtl_sk,bigint
+ott_extrnl_prtnr_acnt_dtl,extrnl_prtnr_sk,integer
+ott_extrnl_prtnr_acnt_dtl,acnt_sk,bigint
+ott_extrnl_prtnr_acnt_dtl,fld_nm,character varying
+ott_extrnl_prtnr_acnt_dtl,fld_val,character varying
+ott_extrnl_prtnr_acnt_dtl,crtn_dttm,timestamp without time zone
+ott_extrnl_prtnr_acnt_dtl,bgn_eff_dt,date
+ott_extrnl_prtnr_acnt_dtl,endg_eff_dt,date
+ott_extrnl_prtnr_acnt_dtl,cur_ind,boolean
+ott_extrnl_prtnr_acnt_dtl,updtd_by,character varying
+ott_extrnl_prtnr_acnt_dtl,updtd_dttm,timestamp without time zone
+ott_sls_chnl,sls_chnl_sk,integer
+ott_sls_chnl,drvd_sls_chnl_nm,character varying
+ott_sls_chnl,updtd_by,character varying
+ott_sls_chnl,updtd_dttm,timestamp without time zone
+ott_prtnr_acnt_pkg,prtnr_acnt_pkg_sk,bigint
+ott_prtnr_acnt_pkg,acnt_sk,bigint
+ott_prtnr_acnt_pkg,prtnr_pkg_sk,integer
+ott_prtnr_acnt_pkg,pln_sk,integer
+ott_prtnr_acnt_pkg,prtnr_pkg_strt_dt,date
+ott_prtnr_acnt_pkg,prtnr_pkg_end_dt,date
+ott_prtnr_acnt_pkg,src_cd,character varying
+ott_prtnr_acnt_pkg,bgn_eff_dt,date
+ott_prtnr_acnt_pkg,endg_eff_dt,date
+ott_prtnr_acnt_pkg,cur_ind,smallint
+ott_prtnr_acnt_pkg,updtd_by,character varying
+ott_prtnr_acnt_pkg,updtd_dttm,timestamp without time zone
+ott_pmtn_actn_dtl,pmtn_actn_dtl_sk,integer
+ott_pmtn_actn_dtl,pmtn_actn_dtl_src_key,character varying
+ott_pmtn_actn_dtl,pmtn_sk,integer
+ott_pmtn_actn_dtl,actn_typ_txt,character varying
+ott_pmtn_actn_dtl,disc_typ_txt,character varying
+ott_pmtn_actn_dtl,pln_sk,integer
+ott_pmtn_actn_dtl,src_cd,character varying
+ott_pmtn_actn_dtl,pmtn_actn_desc,character varying
+ott_pmtn_actn_dtl,pmtn_amt,numeric
+ott_pmtn_actn_dtl,pmtn_actn_txt,character varying
+ott_pmtn_actn_dtl,pmtn_cpn_dur,integer
+ott_pmtn_actn_dtl,bgn_eff_dt,date
+ott_pmtn_actn_dtl,endg_eff_dt,date
+ott_pmtn_actn_dtl,cur_ind,boolean
+ott_pmtn_actn_dtl,updtd_by,character varying
+ott_pmtn_actn_dtl,updtd_dttm,timestamp without time zone
+ott_blckd_crd_txn,blckd_crd_txn_sk,bigint
+ott_blckd_crd_txn,blckd_crd_txn_src_key,bigint
+ott_blckd_crd_txn,acnt_sk,bigint
+ott_blckd_crd_txn,cc_frst_6_dgts,character
+ott_blckd_crd_txn,cc_lst_4_dgts,character
+ott_blckd_crd_txn,cc_bin_dtl_sk,bigint
+ott_blckd_crd_txn,brwsr_fngr_prnts_txt,character varying
+ott_blckd_crd_txn,brwsr_typ_cd,character varying
+ott_blckd_crd_txn,brwsr_typ_desc,character varying
+ott_blckd_crd_txn,tz_offst_val_in_mnt,character varying
+ott_blckd_crd_txn,brwsr_lang_cd,character varying
+ott_blckd_crd_txn,cooks_enbld_ind,boolean
+ott_blckd_crd_txn,dvce_used_cd,character varying
+ott_blckd_crd_txn,dvce_used_desc,character varying
+ott_blckd_crd_txn,clnt_ip_addr,character varying
+ott_blckd_crd_txn,pln_sk,integer
+ott_blckd_crd_txn,pkg_dtl_txt,character varying
+ott_blckd_crd_txn,src_creat_dttm,timestamp without time zone
+ott_blckd_crd_txn,src_creat_dt,date
+ott_blckd_crd_txn,src_cd,character varying
+ott_blckd_crd_txn,updtd_by,character varying
+ott_blckd_crd_txn,updtd_dttm,timestamp without time zone
+ott_ad_sls,ad_sls_sk,integer
+ott_ad_sls,ad_dt,date
+ott_ad_sls,prtnr_nm,character varying
+ott_ad_sls,updtd_by,character varying
+ott_ad_sls,updtd_dttm,timestamp without time zone
+ott_frd_sco_rul,frd_sco_rul_sk,integer
+ott_frd_sco_rul,rul_id,integer
+ott_frd_sco_rul,rul_desc,character varying
+ott_frd_sco_rul,updtd_by,character varying
+ott_frd_sco_rul,updtd_dttm,timestamp without time zone
+ott_frd_sco_txn_dtl,frd_sco_txn_dtl_sk,bigint
+ott_frd_sco_txn_dtl,frd_sco_txn_sk,bigint
+ott_frd_sco_txn_dtl,frd_sco_rul_sk,integer
+ott_frd_sco_txn_dtl,updtd_by,character varying
+ott_frd_sco_txn_dtl,updtd_dttm,timestamp without time zone
+ott_invce,invce_sk,bigint
+ott_invce,invce_id,character varying
+ott_invce,acnt_sk,bigint
+ott_invce,invce_sts_cd,character varying
+ott_invce,invce_tot,numeric
+ott_invce,invce_tx,numeric
+ott_invce,invce_sb_tot,numeric
+ott_invce,invce_nbr,integer
+ott_invce,invce_due_dt,date
+ott_invce,invce_cls_dttm,timestamp without time zone
+ott_invce,invce_cls_dt,date
+ott_invce,invce_bll_dttm,timestamp without time zone
+ott_invce,invce_typ_cd,character varying
+ott_invce,rcvry_rsn_cd,character varying
+ott_invce,pmt_mthd_nm,character varying
+ott_invce,tx_rate_nbr,numeric
+ott_invce,updtd_by,character varying
+ott_invce,updtd_dttm,timestamp without time zone
+ott_invce_dtl,invce_dtl_sk,bigint
+ott_invce_dtl,invce_ln_nbr,character varying
+ott_invce_dtl,enttlmnt_sk,integer
+ott_invce_dtl,invce_ln_itm_desc,character varying
+ott_invce_dtl,eqpmt_mdl_sk,integer
+ott_invce_dtl,pkg_sk,integer
+ott_invce_dtl,subsn_sk,bigint
+ott_invce_dtl,invce_ln_tot,numeric
+ott_invce_dtl,invce_dtl_sts_cd,character varying
+ott_invce_dtl,invce_ln_itm_strt_dttm,timestamp without time zone
+ott_invce_dtl,invce_ln_itm_strt_dt,date
+ott_invce_dtl,invce_ln_itm_end_dt,date
+ott_invce_dtl,invce_ln_itm_orgn,character varying
+ott_invce_dtl,orig_invce_ln_nbr,character varying
+ott_invce_dtl,disc_amt,numeric
+ott_invce_dtl,pln_sk,integer
+ott_invce_dtl,invce_ln_grss_amt,numeric
+ott_invce_dtl,orig_invce_nbr,character varying
+ott_invce_dtl,invce_ln_itm_typ_cd,character varying
+ott_invce_dtl,invce_ln_itm_qty_nbr,integer
+ott_invce_dtl,invce_ln_itm_acntng_cd,character varying
+ott_invce_dtl,invce_ln_tx_amt,numeric
+ott_invce_dtl,src_cd,character varying
+ott_invce_dtl,updtd_by,character varying
+ott_invce_dtl,updtd_dttm,timestamp without time zone
+ott_txn_rspn_ctg,txn_rspn_ctg_sk,integer
+ott_txn_rspn_ctg,gtwy_rspn_cd,character varying
+ott_txn_rspn_ctg,pmt_mthd_cd,character varying
+ott_txn_rspn_ctg,bgn_eff_dt,date
+ott_txn_rspn_ctg,endg_eff_dt,date
+ott_txn_rspn_ctg,cur_ind,character
+ott_txn_rspn_ctg,updtd_by,character varying
+ott_txn_rspn_ctg,updtd_dttm,timestamp without time zone
+ott_txn,txn_sk,bigint
+ott_txn,invce_sk,bigint
+ott_txn,txn_id,character varying
+ott_txn,txn_sts_cd,character varying
+ott_txn,txn_amt,numeric
+ott_txn,txn_dttm,timestamp without time zone
+ott_txn,cc_typ_cd,character varying
+ott_txn,txn_typ_cd,character varying
+ott_txn,acnt_sk,bigint
+ott_txn,subsn_sk,bigint
+ott_txn,orig_txn_id,character varying
+ott_txn,orig_invce_sk,bigint
+ott_txn,gtwy_rspn_cd,character varying
+ott_txn,orgn_cd,character varying
+ott_txn,cvv_rslt_cd,character varying
+ott_txn,avs_rslt_cd,character varying
+ott_txn,pmt_mthd_cd,character varying
+ott_txn,txn_ref_txt,character varying
+ott_txn,src_cd,character varying
+ott_txn,creat_app_cd,character varying
+ott_txn,pmtn_sk,integer
+ott_txn,txn_rspn_ctg_sk,integer
+ott_txn,updtd_by,character varying
+ott_txn,updtd_dttm,timestamp without time zone
+ott_acnt_typ_xrf,acnt_typ_xrf_sk,integer
+ott_acnt_typ_xrf,acnt_typ_cd,character varying
+ott_acnt_typ_xrf,dmstc_core,boolean
+ott_acnt_typ_xrf,dmstc_mss_core,boolean
+ott_acnt_typ_xrf,intl_core,boolean
+ott_acnt_typ_xrf,intl_mss_core,boolean
+ott_acnt_typ_xrf,ltno_core,boolean
+ott_acnt_typ_xrf,ltno_mss_core,boolean
+ott_acnt_typ_xrf,dmstc_add_on,boolean
+ott_acnt_typ_xrf,dmstc_mss_add_on,boolean
+ott_acnt_typ_xrf,intl_add_on,boolean
+ott_acnt_typ_xrf,intl_mss_add_on,boolean
+ott_acnt_typ_xrf,ltno_add_on,boolean
+ott_acnt_typ_xrf,ltno_mss_add_on,boolean
+ott_acnt_typ_xrf,updtd_by,character varying
+ott_acnt_typ_xrf,updtd_dttm,timestamp without time zone
+ott_drvd_acnt_prfl,acnt_sk,bigint
+ott_drvd_acnt_prfl,drvd_acnt_orig_actvtn_dt,date
+ott_drvd_acnt_prfl,drvd_acnt_orig_actvtn_tm,character varying
+ott_drvd_acnt_prfl,drvd_acnt_actvtn_dt,date
+ott_drvd_acnt_prfl,drvd_acnt_actvtn_tm,character varying
+ott_drvd_acnt_prfl,drvd_acnt_dcnct_dt,date
+ott_drvd_acnt_prfl,drvd_acnt_dcnct_tm,character varying
+ott_drvd_acnt_prfl,drvd_acnt_xncl_dt,date
+ott_drvd_acnt_prfl,drvd_acnt_xncl_tm,character varying
+ott_drvd_acnt_prfl,drvd_rll_to_pay_dt,date
+ott_drvd_acnt_prfl,drvd_rll_to_pay_tm,character varying
+ott_drvd_acnt_prfl,drvd_acnt_sts_cd,character varying
+ott_drvd_acnt_prfl,acnt_typ_cd,character varying
+ott_drvd_acnt_prfl,fr_trl_ind,boolean
+ott_drvd_acnt_prfl,pyng_ind,boolean
+ott_drvd_acnt_prfl,frmr_typ_cd,character varying
+ott_drvd_acnt_prfl,fr_pyng_ind,boolean
+ott_drvd_acnt_prfl,drvd_fr_pyng_dt,date
+ott_drvd_acnt_prfl,drvd_fr_pyng_tm,character varying
+ott_drvd_acnt_prfl,acnt_core_typ_cd,character varying
+ott_drvd_acnt_prfl,acnt_add_on_typ_cd,character varying
+ott_drvd_acnt_prfl,endg_eff_dt,date
+ott_drvd_acnt_prfl,cur_ind,boolean
+ott_drvd_acnt_prfl,updtd_by,character varying
+ott_drvd_acnt_prfl,updtd_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,ott_enttlmnt_act_sk,bigint
+ott_enttlmnt_act_dedup_vw,enttlmnt_sk,integer
+ott_enttlmnt_act_dedup_vw,acnt_sk,bigint
+ott_enttlmnt_act_dedup_vw,enttlmnt_creat_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,enttlmnt_creat_dt,date
+ott_enttlmnt_act_dedup_vw,enttlmnt_suspndd_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,enttlmnt_suspndd_dt,date
+ott_enttlmnt_act_dedup_vw,enttlmnt_transctd_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,enttlmnt_vwng_strt_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,creat_app_cd,character varying
+ott_enttlmnt_act_dedup_vw,lst_updt_app_cd,character varying
+ott_enttlmnt_act_dedup_vw,enttlmnt_recpt_id,character varying
+ott_enttlmnt_act_dedup_vw,enttlmnt_blg_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,cart_flw_nm,character varying
+ott_enttlmnt_act_dedup_vw,creat_by,character varying
+ott_enttlmnt_act_dedup_vw,creat_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,updtd_by,character varying
+ott_enttlmnt_act_dedup_vw,updtd_dttm,timestamp without time zone
+ott_enttlmnt_act_dedup_vw,rnk,bigint
+ott_acnt_mthd_of_pmt,acnt_mthd_of_pmt_sk,bigint
+ott_acnt_mthd_of_pmt,acnt_sk,bigint
+ott_acnt_mthd_of_pmt,cc_typ_cd,character varying
+ott_acnt_mthd_of_pmt,cc_exp_mo_nbr,character varying
+ott_acnt_mthd_of_pmt,cc_exp_yr_nbr,character varying
+ott_acnt_mthd_of_pmt,cc_frst_6_dgts,character
+ott_acnt_mthd_of_pmt,cc_lst_4_dgts,character
+ott_acnt_mthd_of_pmt,cc_bin_dtl_sk,bigint
+ott_acnt_mthd_of_pmt,src_creat_dttm,timestamp without time zone
+ott_acnt_mthd_of_pmt,pmt_mthd_cd,character varying
+ott_acnt_mthd_of_pmt,acnt_blg_id,character varying
+ott_acnt_mthd_of_pmt,updtd_by,character varying
+ott_acnt_mthd_of_pmt,updtd_dttm,timestamp without time zone
+ott_acnt_rfrl,acnt_rfrl_sk,integer
+ott_acnt_rfrl,rfrl_id,character varying
+ott_acnt_rfrl,rcpnt_id,character varying
+ott_acnt_rfrl,rfrl_acnt_sk,bigint
+ott_acnt_rfrl,rcpnt_acnt_sk,bigint
+ott_acnt_rfrl,pmtn_cmpn_id,character varying
+ott_acnt_rfrl,pmtn_cmpn_nm,character varying
+ott_acnt_rfrl,rfrl_chnl_cd,character varying
+ott_acnt_rfrl,rcpnt_cart_val,numeric
+ott_acnt_rfrl,rcpnt_cnv_dttm,timestamp without time zone
+ott_acnt_rfrl,updtd_by,character varying
+ott_acnt_rfrl,updtd_dttm,timestamp without time zone
+ott_acnt_prfl,acnt_actvtn_afflt_sls_chnl_sk,integer
+ott_cpn,cpn_cd,character varying
+ott_cpn,cpn_nm,character varying
+ott_cpn,cpn_curr_cd,character varying
+ott_cpn,cpn_tm_pd,character varying
+ott_cpn,cpn_crtn_dttm,timestamp without time zone
+ott_cpn,cpn_strt_dttm,timestamp without time zone
+ott_cpn,cpn_dcnct_dttm,timestamp without time zone
+ott_cpn,cpn_typ_cd,character varying
+ott_cpn,pmtn_sk,integer
+ott_cpn,src_cd,character varying
+ott_cpn,updtd_by,character varying
+ott_cpn,updtd_dttm,timestamp without time zone
+ott_cpn,cpn_amt,numeric
+ott_acnt_subsn,paus_strt_dttm,timestamp without time zone
+ott_acnt_subsn,resm_dttm,timestamp without time zone
+ott_acnt_subsn,rmnng_paus_cycl_cnt,integer
+ott_agnt_act,agnt_act_sk,bigint
+ott_agnt_act,act_src_key,bigint
+ott_agnt_act,act_dttm,timestamp without time zone
+ott_agnt_act,act_dt,date
+ott_agnt_act,act_cls_cd,character varying
+ott_agnt_act,emp_sk,bigint
+ott_agnt_act,agnt_eml_addr,character varying
+ott_agnt_act,acnt_sk,bigint
+ott_agnt_act,subsn_sk,bigint
+ott_agnt_act,txn_sk,bigint
+ott_agnt_act,invce_sk,bigint
+ott_agnt_act,rmrks_txt,character varying
+ott_agnt_act,act_rsn_cd,character varying
+ott_agnt_act,act_rsn_desc,character varying
+ott_agnt_act,act_rsn_dtl_cd,character varying
+ott_agnt_act,act_rsn_dtl_desc,character varying
+ott_agnt_act,bfr_pkg_mx_txt,character varying
+ott_agnt_act,pkg_mx_txt,character varying
+ott_agnt_act,src_cd,character varying
+ott_agnt_act,updtd_by,character varying
+ott_agnt_act,updtd_dttm,timestamp without time zone
+ott_web_act,web_act_sk,bigint
+ott_web_act,act_src_key,character varying
+ott_web_act,sesn_src_key,character varying
+ott_web_act,act_tm,character varying
+ott_web_act,act_cls_cd,character varying
+ott_web_act,site_id,character varying
+ott_web_act,site_nm,character varying
+ott_web_act,vst_site_id,character varying
+ott_web_act,vst_site_nm,character varying
+ott_web_act,web_tchpt_src_1_txt,character varying
+ott_web_act,web_tchpt_src_2_txt,character varying
+ott_web_act,web_tchpt_src_3_txt,character varying
+ott_web_act,acnt_sk,bigint
+ott_web_act,mbr_acnt_sk,bigint
+ott_web_act,invce_sk,bigint
+ott_web_act,tchpt_dttm,timestamp without time zone
+ott_web_act,tchpt_dt,date
+ott_web_act,act_sqnc_nbr,integer
+ott_web_act,tchpt_cnt,integer
+ott_web_act,updtd_by,character varying
+ott_web_act,updtd_dttm,timestamp without time zone
+ott_frd_sco_txn,frd_sco_txn_sk,bigint
+ott_frd_sco_txn,txn_id,character varying
+ott_frd_sco_txn,txn_dttm,timestamp without time zone
+ott_frd_sco_txn,txn_dt,date
+ott_frd_sco_txn,sesn_id,character varying
+ott_frd_sco_txn,acnt_sk,bigint
+ott_frd_sco_txn,site_nm,character varying
+ott_frd_sco_txn,txn_sts_cd,character varying
+ott_frd_sco_txn,cc_typ_cd,character varying
+ott_frd_sco_txn,mod_typ_cd,character varying
+ott_frd_sco_txn,acnt_frd_sco,integer
+ott_frd_sco_txn,acnt_2_wk_ordr_cnt,integer
+ott_frd_sco_txn,acnt_max_6_hr_ordr_cnt,integer
+ott_frd_sco_txn,acnt_unq_eml_cnt,integer
+ott_frd_sco_txn,acnt_unq_cc_cnt,integer
+ott_frd_sco_txn,acnt_unq_dvce_cnt,integer
+ott_frd_sco_txn,acnt_ntwrk_typ_cd,character varying
+ott_frd_sco_txn,acnt_geox_cd,character varying
+ott_frd_sco_txn,brwsr_typ_cd,character varying
+ott_frd_sco_txn,brwsr_ver_nbr,character varying
+ott_frd_sco_txn,dvce_cntry_cd,character varying
+ott_frd_sco_txn,dvce_layr_txt,character varying
+ott_frd_sco_txn,dvce_fngr_prnts_txt,character varying
+ott_frd_sco_txn,dvce_frst_dt,date
+ott_frd_sco_txn,dvce_hm_cntry_cd,character varying
+ott_frd_sco_txn,dvce_loc_cntry_cd,character varying
+ott_frd_sco_txn,dvce_loc_rgn_cd,character varying
+ott_frd_sco_txn,dvce_lang_cd,character varying
+ott_frd_sco_txn,dvce_oprtg_sys_nm,character varying
+ott_frd_sco_txn,mobl_dvce_typ_cd,character varying
+ott_frd_sco_txn,mobl_dvce_ind,boolean
+ott_frd_sco_txn,mobl_dvce_frwrd_ind,boolean
+ott_frd_sco_txn,dvce_voce_enbld_ind,boolean
+ott_frd_sco_txn,dvce_js_enbld_ind,boolean
+ott_frd_sco_txn,dvce_flsh_enbld_ind,boolean
+ott_frd_sco_txn,dvce_cooks_enbld_ind,boolean
+ott_frd_sco_txn,dvce_dat_clctd_ind,boolean
+ott_frd_sco_txn,prxy_ip_addr,character varying
+ott_frd_sco_txn,prxy_ip_lattd_cord,numeric
+ott_frd_sco_txn,prxy_ip_longtd_cord,numeric
+ott_frd_sco_txn,prxy_ip_cntry_cd,character varying
+ott_frd_sco_txn,prxy_ip_rgn_nm,character varying
+ott_frd_sco_txn,prxy_ip_cty_nm,character varying
+ott_frd_sco_txn,prxy_ip_org_nm,character varying
+ott_frd_sco_txn,prcd_ip_lattd_cord,numeric
+ott_frd_sco_txn,prcd_ip_longtd_cord,numeric
+ott_frd_sco_txn,prcd_ip_cntry_cd,character varying
+ott_frd_sco_txn,prcd_ip_rgn_nm,character varying
+ott_frd_sco_txn,prcd_ip_cty_nm,character varying
+ott_frd_sco_txn,prcd_ip_org_nm,character varying
+ott_frd_sco_txn,prcd_ip_addr,character varying
+ott_frd_sco_txn,prxy_ind,boolean
+ott_frd_sco_txn,pc_remt_ind,boolean
+ott_frd_sco_txn,rul_trgr_cnt,integer
+ott_frd_sco_txn,rul_actn_rsn_cd,character varying
+ott_frd_sco_txn,cntr_trgr_cnt,integer
+ott_frd_sco_txn,err_cnt,integer
+ott_frd_sco_txn,wrng_cnt,integer
+ott_frd_sco_txn,updtd_by,character varying
+ott_frd_sco_txn,updtd_dttm,timestamp without time zone
+ott_frd_sco_txn,pln_sk,integer
+ott_adj,adj_sk,bigint
+ott_adj,adj_id,character varying
+ott_adj,enttlmnt_sk,integer
+ott_adj,invce_sk,bigint
+ott_adj,acnt_sk,bigint
+ott_adj,pkg_sk,integer
+ott_adj,adj_sts_cd,character varying
+ott_adj,adj_desc,character varying
+ott_adj,adj_creat_dttm,timestamp without time zone
+ott_adj,adj_creat_dt,date
+ott_adj,adj_strt_dttm,timestamp without time zone
+ott_adj,adj_end_dttm,timestamp without time zone
+ott_adj,adj_amt,numeric
+ott_adj,orig_adj_id,character varying
+ott_adj,adj_disc_amt,numeric
+ott_adj,cpn_cd,character varying
+ott_adj,adj_typ_cd,character varying
+ott_adj,adj_qty_nbr,integer
+ott_adj,adj_tot_amt,numeric
+ott_adj,adj_acntng_cd,character varying
+ott_adj,adj_orgn,character varying
+ott_adj,invce_typ_cd,character varying
+ott_adj,updtd_by,character varying
+ott_adj,updtd_dttm,timestamp without time zone
+ott_acnt_subsn_paus,acnt_subsn_paus_sk,bigint
+ott_acnt_subsn_paus,acnt_sk,bigint
+ott_acnt_subsn_paus,subsn_sk,bigint
+ott_acnt_subsn_paus,paus_strt_dttm,timestamp without time zone
+ott_acnt_subsn_paus,paus_end_dttm,timestamp without time zone
+ott_acnt_subsn_paus,paus_blg_cycl_cnt,integer
+ott_acnt_subsn_paus,usr_actn_cd,character varying
+ott_acnt_subsn_paus,creat_app_cd,character varying
+ott_acnt_subsn_paus,src_creat_dttm,timestamp without time zone
+ott_acnt_subsn_paus,updtd_by,character varying
+ott_acnt_subsn_paus,updtd_dttm,timestamp without time zone
+ott_gl_pkg_ctg,gl_pkg_ctg_sk,integer
+ott_gl_pkg_ctg,pkg_sk,integer
+ott_gl_pkg_ctg,txn_typ_cd,character varying
+ott_gl_pkg_ctg,chrg_typ_cd,character varying
+ott_gl_pkg_ctg,ln_of_bus_cd,character varying
+ott_gl_pkg_ctg,gl_ctg_nm,character varying
+ott_gl_pkg_ctg,bgn_eff_dt,date
+ott_gl_pkg_ctg,endg_eff_dt,date
+ott_gl_pkg_ctg,cur_ind,boolean
+ott_gl_pkg_ctg,updtd_by,character varying
+ott_gl_pkg_ctg,updtd_dttm,timestamp without time zone
+ott_xncl_rsn_bckt,xncl_rsn_sk,bigint
+ott_xncl_rsn_bckt,xncl_rsn_bckt_txt,character varying
+ott_xncl_rsn_bckt,xncl_rsn_grp_txt,character varying
+ott_xncl_rsn_bckt,bgn_eff_dt,date
+ott_xncl_rsn_bckt,endg_eff_dt,date
+ott_xncl_rsn_bckt,cur_ind,boolean
+ott_xncl_rsn_bckt,updtd_by,character varying
+ott_xncl_rsn_bckt,updtd_dttm,timestamp without time zone
+ott_acnt_cpn,acnt_cpn_sk,bigint
+ott_acnt_cpn,acnt_cpn_src_key,character varying
+ott_acnt_cpn,src_cd,character varying
+ott_acnt_cpn,cpn_sk,bigint
+ott_acnt_cpn,extrnl_prtnr_sk,integer
+ott_acnt_cpn,cpn_typ_cd,character varying
+ott_acnt_cpn,cpn_issu_acnt_sk,bigint
+ott_acnt_cpn,cpn_issu_dttm,timestamp without time zone
+ott_acnt_cpn,cpn_issu_dt,date
+ott_acnt_cpn,cpn_exp_dttm,timestamp without time zone
+ott_acnt_cpn,cpn_rdmtn_dttm,timestamp without time zone
+ott_acnt_cpn,cpn_rdmtn_dt,date
+ott_acnt_cpn,cpn_rdmtn_acnt_sk,bigint
+ott_acnt_cpn,cpn_sts_cd,character varying
+ott_acnt_cpn,cpn_rdmtn_amt,numeric
+ott_acnt_cpn,bgn_eff_dt,date
+ott_acnt_cpn,endg_eff_dt,date
+ott_acnt_cpn,cur_ind,boolean
+ott_acnt_cpn,updtd_by,character varying
+ott_acnt_cpn,updtd_dttm,timestamp without time zone
+ott_thrd_prty_addr_dtl,thrd_prty_addr_dtl_sk,bigint
+ott_thrd_prty_addr_dtl,acnt_sk,bigint
+ott_thrd_prty_addr_dtl,src_stet_addr_sk,bigint
+ott_thrd_prty_addr_dtl,thrd_prty_src_key,character varying
+ott_thrd_prty_addr_dtl,src_cd,character varying
+ott_thrd_prty_addr_dtl,rcvd_dt,date
+ott_thrd_prty_addr_dtl,bgn_eff_dt,date
+ott_thrd_prty_addr_dtl,endg_eff_dt,date
+ott_thrd_prty_addr_dtl,cur_ind,boolean
+ott_thrd_prty_addr_dtl,updtd_by,character varying
+ott_thrd_prty_addr_dtl,updtd_dttm,timestamp without time zone
+ott_cpn_dtl,cpn_dtl_sk,bigint
+ott_cpn_dtl,cpn_sk,bigint
+ott_cpn_dtl,cpn_txn_id,character varying
+ott_cpn_dtl,sls_chnl_sk,integer
+ott_cpn_dtl,cpn_evnt_typ_cd,character varying
+ott_cpn_dtl,cpn_pin,character varying
+ott_cpn_dtl,prod_cd,character varying
+ott_cpn_dtl,prod_nm,character varying
+ott_cpn_dtl,txn_dt,date
+ott_cpn_dtl,txn_tm,character varying
+ott_cpn_dtl,sls_chnl_loc_cd,character varying
+ott_cpn_dtl,sls_chnl_cty,character varying
+ott_cpn_dtl,sls_chnl_st,character varying
+ott_cpn_dtl,sls_chnl_zip,character varying
+ott_cpn_dtl,sls_chnl_term,character varying
+ott_cpn_dtl,txn_amt,numeric
+ott_cpn_dtl,src_cd,character varying
+ott_cpn_dtl,updtd_by,character varying
+ott_cpn_dtl,updtd_dttm,timestamp without time zone
+ott_invce_tx_dtl,invce_tx_dtl_sk,bigint
+ott_invce_tx_dtl,invce_sk,bigint
+ott_invce_tx_dtl,invce_dtl_sk,bigint
+ott_invce_tx_dtl,acnt_sk,bigint
+ott_invce_tx_dtl,subsn_sk,bigint
+ott_invce_tx_dtl,pkg_sk,integer
+ott_invce_tx_dtl,invce_tx_dttm,timestamp without time zone
+ott_invce_tx_dtl,invce_tx_dt,date
+ott_invce_tx_dtl,tx_typ_cd,character varying
+ott_invce_tx_dtl,tx_jrsdctn_typ_cd,character varying
+ott_invce_tx_dtl,tx_jrsdctn_invce_desc_cd,character varying
+ott_invce_tx_dtl,tx_jrsdctn_nm,character varying
+ott_invce_tx_dtl,tx_rate_nbr,numeric
+ott_invce_tx_dtl,tx_amt,numeric
+ott_invce_tx_dtl,invce_tx_area_cd,character varying
+ott_invce_tx_dtl,orig_invce_tx_dttm,timestamp without time zone
+ott_invce_tx_dtl,orig_invce_tx_dt,date
+ott_invce_tx_dtl,orig_invce_tx_area_cd,character varying
+ott_invce_tx_dtl,updtd_by,character varying
+ott_invce_tx_dtl,updtd_dttm,timestamp without time zone
+ott_sls_chnl,sls_chnl_id,character varying
+ott_sls_chnl,sls_chnl_nm,character varying
+ott_txn_rspn_ctg,rspn_shrt_desc,character varying
+ott_txn_rspn_ctg,rspn_lng_desc,character varying
+ott_txn_rspn_ctg,rspn_ctg_nm,character varying
+ott_adj_accrl_xref,adj_accrl_xref_sk,bigint
+ott_adj_accrl_xref,adj_ln_itm_desc,character varying
+ott_adj_accrl_xref,drvd_adj_ln_itm_desc,character varying
+ott_adj_accrl_xref,adj_ln_itm_acntng_cd,character varying
+ott_adj_accrl_xref,adj_amt,numeric
+ott_adj_accrl_xref,adj_accrl_amt,numeric
+ott_adj_accrl_xref,adj_typ_cd,character varying
+ott_adj_accrl_xref,same_mo_ernd_accrl_ind,smallint
+ott_adj_accrl_xref,same_mo_unernd_accrl_ind,smallint
+ott_adj_accrl_xref,appld_on_bas_pkg_ind,smallint
+ott_adj_accrl_xref,ernd_grss_amt_ind,smallint
+ott_adj_accrl_xref,ernd_disc_amt_ind,smallint
+ott_adj_accrl_xref,ernd_net_amt_ind,smallint
+ott_adj_accrl_xref,unernd_grss_amt_ind,smallint
+ott_adj_accrl_xref,unernd_disc_amt_ind,smallint
+ott_adj_accrl_xref,unernd_net_amt_ind,smallint
+ott_adj_accrl_xref,gl_pkg_ctg_sk,integer
+ott_adj_accrl_xref,bgn_eff_dt,date
+ott_adj_accrl_xref,endg_eff_dt,date
+ott_adj_accrl_xref,cur_ind,boolean
+ott_adj_accrl_xref,updtd_by,character varying
+ott_adj_accrl_xref,updtd_dttm,timestamp without time zone
+ott_acnt_subsn_dtl,acnt_subsn_dtl_sk,bigint
+ott_acnt_subsn_dtl,acnt_sk,bigint
+ott_acnt_subsn_dtl,subsn_sk,bigint
+ott_acnt_subsn_dtl,subsn_strt_dttm,timestamp without time zone
+ott_acnt_subsn_dtl,subsn_strt_dt,date
+ott_acnt_subsn_dtl,subsn_end_dttm,timestamp without time zone
+ott_acnt_subsn_dtl,subsn_end_dt,date
+ott_acnt_subsn_dtl,subsn_orig_bll_cycl_nbr,integer
+ott_acnt_subsn_dtl,subsn_bll_cycl_nbr,integer
+ott_acnt_subsn_dtl,updtd_by,character varying
+ott_acnt_subsn_dtl,updtd_dttm,timestamp without time zone
+ott_ordr,ordr_sk,bigint
+ott_ordr,acnt_sk,bigint
+ott_ordr,app_oper_sk,bigint
+ott_ordr,extrnl_co_sk,bigint
+ott_ordr,lst_updt_dttm,timestamp without time zone
+ott_ordr,dsh_ref_id,character varying
+ott_ordr,ordr_crtn_dttm,timestamp without time zone
+ott_ordr,ordr_crtn_dt,date
+ott_ordr,updtd_by,character varying
+ott_ordr,updtd_dttm,timestamp without time zone
+ott_acnt_bal,acnt_sk,bigint
+ott_acnt_bal,bal_amt,numeric
+ott_acnt_bal,bgn_eff_dt,date
+ott_acnt_bal,endg_eff_dt,date
+ott_acnt_bal,cur_ind,boolean
+ott_acnt_bal,updtd_by,character varying
+ott_acnt_bal,updtd_dttm,timestamp without time zone
+ott_acnt_eqpmt_rev,acnt_sk,bigint
+ott_acnt_eqpmt_rev,chrg_dttm,timestamp without time zone
+ott_acnt_eqpmt_rev,chrg_dt,date
+ott_acnt_eqpmt_rev,pln_sk,integer
+ott_acnt_eqpmt_rev,pkg_sk,integer
+ott_acnt_eqpmt_rev,enttlmnt_sk,integer
+ott_acnt_eqpmt_rev,txn_typ_cd,character varying
+ott_acnt_eqpmt_rev,chrg_typ_cd,character varying
+ott_acnt_eqpmt_rev,eqpmt_mdl_sk,integer
+ott_acnt_eqpmt_rev,ln_of_bus_cd,character varying
+ott_acnt_eqpmt_rev,gl_pkg_ctg_sk,integer
+ott_acnt_eqpmt_rev,chrg_rsn_cd,character varying
+ott_acnt_eqpmt_rev,invce_sk,bigint
+ott_acnt_eqpmt_rev,invce_dtl_sk,bigint
+ott_acnt_eqpmt_rev,txn_invce_sk,bigint
+ott_acnt_eqpmt_rev,svc_strt_dt,date
+ott_acnt_eqpmt_rev,svc_end_dt,date
+ott_acnt_eqpmt_rev,nbr_of_prpd_mths,integer
+ott_acnt_eqpmt_rev,chrg_amt,numeric
+ott_acnt_eqpmt_rev,tot_chrg_amt,numeric
+ott_acnt_eqpmt_rev,fair_val_amt,numeric
+ott_acnt_eqpmt_rev,tot_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,fair_val_pct,numeric
+ott_acnt_eqpmt_rev,fair_val_rndd_pct,integer
+ott_acnt_eqpmt_rev,rltv_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,grss_chrg_amt,numeric
+ott_acnt_eqpmt_rev,tot_grss_chrg_amt,numeric
+ott_acnt_eqpmt_rev,grss_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,tot_grss_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,rltv_grss_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,disc_chrg_amt,numeric
+ott_acnt_eqpmt_rev,tot_disc_chrg_amt,numeric
+ott_acnt_eqpmt_rev,disc_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,tot_disc_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,rltv_disc_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,rltv_agnt_eqpmt_disc_amt,numeric
+ott_acnt_eqpmt_rev,agnt_eqpmt_amt,numeric
+ott_acnt_eqpmt_rev,rltv_agnt_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,rltv_agnt_grss_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,rltv_agnt_disc_fair_val_amt,numeric
+ott_acnt_eqpmt_rev,updtd_by,character varying
+ott_acnt_eqpmt_rev,updtd_dttm,timestamp without time zone
+ott_acnt,acnt_id,character varying
+ott_acnt,ums_usr_id,integer
+ott_acnt,acnt_frst_nm,character varying
+ott_acnt,acnt_lst_nm,character varying
+ott_acnt,acnt_crtn_dttm,timestamp without time zone
+ott_acnt,acnt_crtn_dt,date
+ott_acnt,dsh_acnt_sk,integer
+ott_acnt,ums_acnt_orig_crtn_dttm,timestamp without time zone
+ott_acnt,ums_acnt_orig_crtn_dt,date
+ott_acnt,ums_acnt_actvtn_dttm,timestamp without time zone
+ott_acnt,ums_acnt_actvtn_dt,date
+ott_acnt,axm_usr_id,integer
+ott_acnt,prtnr_usr_id,character varying
+ott_acnt,src_cd,character varying
+ott_acnt,bgn_eff_dt,date
+ott_acnt,endg_eff_dt,date
+ott_acnt,cur_ind,boolean
+ott_acnt,updtd_by,character varying
+ott_acnt,updtd_dttm,timestamp without time zone
+ott_acnt,pri_lang_txt,character varying
+ott_acnt,cur_bll_cycl_nbr,integer
+ott_pkg_rltd,pkg_sk,integer
+ott_pkg_rltd,rltd_pkg_sk,integer
+ott_pkg_rltd,pkg_rltd_rsn_cd,character varying
+ott_pkg_rltd,prtnr_pkg_sk,integer
+ott_pkg_rltd,iau_enbld_ind,smallint
+ott_pkg_rltd,bgn_eff_dt,date
+ott_pkg_rltd,endg_eff_dt,date
+ott_pkg_rltd,cur_ind,boolean
+ott_pkg_rltd,updtd_by,character varying
+ott_pkg_rltd,updtd_dttm,timestamp without time zone
+ott_frnchs_asset,frnchs_asset_sk,integer
+ott_frnchs_asset,frnchs_asset_id,character varying
+ott_frnchs_asset,asset_nm,character varying
+ott_frnchs_asset,studio_nm,character varying
+ott_frnchs_asset,bx_offc_clctn_amt,character varying
+ott_frnchs_asset,thtrcl_rls_dt,date
+ott_frnchs_asset,dvd_blry_rls_dt,date
+ott_frnchs_asset,lcnse_strt_dt,date
+ott_frnchs_asset,lcnse_end_dt,date
+ott_frnchs_asset,cntrct_ctg_nm,character varying
+ott_frnchs_asset,notes_txt,character varying
+ott_frnchs_asset,bgn_eff_dt,date
+ott_frnchs_asset,endg_eff_dt,date
+ott_frnchs_asset,cur_ind,boolean
+ott_frnchs_asset,updtd_by,character varying
+ott_frnchs_asset,updtd_dttm,timestamp without time zone
+ott_agnt_act,bll_frm_dttm,timestamp without time zone
+ott_agnt_act,bll_to_dttm,timestamp without time zone
+ott_acnt,crtd_by,character varying
+ott_acnt,crtd_dttm,timestamp without time zone
+ott_acnt_accrl_mo,crtd_by,character varying
+ott_acnt_accrl_mo,crtd_dttm,timestamp without time zone
+ott_acnt_bal,crtd_by,character varying
+ott_acnt_bal,crtd_dttm,timestamp without time zone
+ott_acnt_brwsr_fngr_prnts,crtd_by,character varying
+ott_acnt_brwsr_fngr_prnts,crtd_dttm,timestamp without time zone
+ott_acnt_cc_vfcn,crtd_by,character varying
+ott_acnt_cc_vfcn,crtd_dttm,timestamp without time zone
+ott_acnt_cpn,crtd_by,character varying
+ott_acnt_cpn,crtd_dttm,timestamp without time zone
+ott_acnt_dvce_imprsn,crtd_by,character varying
+ott_acnt_dvce_imprsn,crtd_dttm,timestamp without time zone
+ott_acnt_eqpmt_rev,crtd_by,character varying
+ott_acnt_eqpmt_rev,crtd_dttm,timestamp without time zone
+ott_txn,txn_gtwy_typ_cd,character varying
+ott_acnt_key,crtd_by,character varying
+ott_acnt_key,crtd_dttm,timestamp without time zone
+ott_acnt_mthd_of_pmt,crtd_by,character varying
+ott_acnt_mthd_of_pmt,crtd_dttm,timestamp without time zone
+ott_acnt_prfl,crtd_by,character varying
+ott_acnt_prfl,crtd_dttm,timestamp without time zone
+ott_acnt_rfrl,crtd_by,character varying
+ott_acnt_rfrl,crtd_dttm,timestamp without time zone
+ott_acnt_sls_chnl,crtd_by,character varying
+ott_acnt_sls_chnl,crtd_dttm,timestamp without time zone
+ott_acnt_subsn,crtd_by,character varying
+ott_acnt_subsn,crtd_dttm,timestamp without time zone
+ott_acnt_subsn_dtl,crtd_by,character varying
+ott_acnt_subsn_dtl,crtd_dttm,timestamp without time zone
+ott_acnt_subsn_paus,crtd_by,character varying
+ott_acnt_subsn_paus,crtd_dttm,timestamp without time zone
+ott_acnt_sum,crtd_by,character varying
+ott_acnt_sum,crtd_dttm,timestamp without time zone
+ott_acnt_svcs,crtd_by,character varying
+ott_acnt_svcs,crtd_dttm,timestamp without time zone
+ott_acnt_typ_xrf,crtd_by,character varying
+ott_acnt_typ_xrf,crtd_dttm,timestamp without time zone
+ott_ad_sls,crtd_by,character varying
+ott_ad_sls,crtd_dttm,timestamp without time zone
+ott_adj,crtd_by,character varying
+ott_adj,crtd_dttm,timestamp without time zone
+ott_adj_accrl_xref,crtd_by,character varying
+ott_adj_accrl_xref,crtd_dttm,timestamp without time zone
+ott_agnt_act,crtd_by,character varying
+ott_agnt_act,crtd_dttm,timestamp without time zone
+ott_blckd_crd_txn,crtd_by,character varying
+ott_blckd_crd_txn,crtd_dttm,timestamp without time zone
+ott_brwsr,crtd_by,character varying
+ott_brwsr,crtd_dttm,timestamp without time zone
+ott_chnl,crtd_by,character varying
+ott_chnl,crtd_dttm,timestamp without time zone
+ott_clfn,crtd_by,character varying
+ott_clfn,crtd_dttm,timestamp without time zone
+ott_clfn_ctg,crtd_by,character varying
+ott_clfn_ctg,crtd_dttm,timestamp without time zone
+ott_clnt_app,crtd_by,character varying
+ott_clnt_app,crtd_dttm,timestamp without time zone
+ott_cpn,crtd_by,character varying
+ott_cpn,crtd_dttm,timestamp without time zone
+ott_cpn_dtl,crtd_by,character varying
+ott_cpn_dtl,crtd_dttm,timestamp without time zone
+ott_dly_acnt_sum,crtd_by,character varying
+ott_dly_acnt_sum,crtd_dttm,timestamp without time zone
+ott_drvd_acnt_prfl,crtd_by,character varying
+ott_drvd_acnt_prfl,crtd_dttm,timestamp without time zone
+ott_dvce_char,crtd_by,character varying
+ott_dvce_char,crtd_dttm,timestamp without time zone
+ott_dvce_usg,crtd_by,character varying
+ott_dvce_usg,crtd_dttm,timestamp without time zone
+ott_emp_acnt_ref,crtd_by,character varying
+ott_emp_acnt_ref,crtd_dttm,timestamp without time zone
+ott_enttlmnt,crtd_by,character varying
+ott_enttlmnt,crtd_dttm,timestamp without time zone
+ott_enttlmnt_act,crtd_by,character varying
+ott_enttlmnt_act,crtd_dttm,timestamp without time zone
+ott_enttlmnt_txn,crtd_by,character varying
+ott_enttlmnt_txn,crtd_dttm,timestamp without time zone
+ott_eqpmt,crtd_by,character varying
+ott_eqpmt,crtd_dttm,timestamp without time zone
+ott_eqpmt_mdl,crtd_by,character varying
+ott_eqpmt_mdl,crtd_dttm,timestamp without time zone
+ott_extrnl_prtnr,crtd_by,character varying
+ott_extrnl_prtnr,crtd_dttm,timestamp without time zone
+ott_extrnl_prtnr_acnt_dtl,crtd_by,character varying
+ott_extrnl_prtnr_acnt_dtl,crtd_dttm,timestamp without time zone
+ott_frd_sco_rul,crtd_by,character varying
+ott_frd_sco_rul,crtd_dttm,timestamp without time zone
+ott_frd_sco_txn,crtd_by,character varying
+ott_frd_sco_txn,crtd_dttm,timestamp without time zone
+ott_frd_sco_txn_dtl,crtd_by,character varying
+ott_frd_sco_txn_dtl,crtd_dttm,timestamp without time zone
+ott_frnchs_asset,crtd_by,character varying
+ott_frnchs_asset,crtd_dttm,timestamp without time zone
+ott_gl_pkg_ctg,crtd_by,character varying
+ott_gl_pkg_ctg,crtd_dttm,timestamp without time zone
+ott_invce,crtd_by,character varying
+ott_invce,crtd_dttm,timestamp without time zone
+ott_invce_dtl,crtd_by,character varying
+ott_invce_dtl,crtd_dttm,timestamp without time zone
+ott_invce_tx_dtl,crtd_by,character varying
+ott_invce_tx_dtl,crtd_dttm,timestamp without time zone
+ott_ordr,crtd_by,character varying
+ott_ordr,crtd_dttm,timestamp without time zone
+ott_pkg,crtd_by,character varying
+ott_pkg,crtd_dttm,timestamp without time zone
+ott_pkg_chnl,crtd_by,character varying
+ott_pkg_chnl,crtd_dttm,timestamp without time zone
+ott_pkg_fair_val,crtd_by,character varying
+ott_pkg_fair_val,crtd_dttm,timestamp without time zone
+ott_pkg_rltd,crtd_by,character varying
+ott_pkg_rltd,crtd_dttm,timestamp without time zone
+ott_pkg_typ,crtd_by,character varying
+ott_pkg_typ,crtd_dttm,timestamp without time zone
+ott_pln,crtd_by,character varying
+ott_pln,crtd_dttm,timestamp without time zone
+ott_pmtn,crtd_by,character varying
+ott_pmtn,crtd_dttm,timestamp without time zone
+ott_pmtn_actn_dtl,crtd_by,character varying
+ott_pmtn_actn_dtl,crtd_dttm,timestamp without time zone
+ott_prtnr_acnt_pkg,crtd_by,character varying
+ott_prtnr_acnt_pkg,crtd_dttm,timestamp without time zone
+ott_prtnr_dly_acnt_sum,crtd_by,character varying
+ott_prtnr_dly_acnt_sum,crtd_dttm,timestamp without time zone
+ott_prtnr_dly_subsn_sum,crtd_by,character varying
+ott_prtnr_dly_subsn_sum,crtd_dttm,timestamp without time zone
+ott_prtnr_pkg,crtd_by,character varying
+ott_prtnr_pkg,crtd_dttm,timestamp without time zone
+ott_prtnr_pkg_xref,crtd_by,character varying
+ott_prtnr_pkg_xref,crtd_dttm,timestamp without time zone
+ott_sls_chnl,crtd_by,character varying
+ott_sls_chnl,crtd_dttm,timestamp without time zone
+ott_subsn_xncl_rsn,crtd_by,character varying
+ott_subsn_xncl_rsn,crtd_dttm,timestamp without time zone
+ott_thrd_prty_addr_dtl,crtd_by,character varying
+ott_thrd_prty_addr_dtl,crtd_dttm,timestamp without time zone
+ott_txn,crtd_by,character varying
+ott_txn,crtd_dttm,timestamp without time zone
+ott_txn_rspn_ctg,crtd_by,character varying
+ott_txn_rspn_ctg,crtd_dttm,timestamp without time zone
+ott_web_act,crtd_by,character varying
+ott_web_act,crtd_dttm,timestamp without time zone
+ott_web_tst_evnt,crtd_by,character varying
+ott_web_tst_evnt,crtd_dttm,timestamp without time zone
+ott_xncl_rsn,crtd_by,character varying
+ott_xncl_rsn,crtd_dttm,timestamp without time zone
+ott_xncl_rsn_bckt,crtd_by,character varying
+ott_xncl_rsn_bckt,crtd_dttm,timestamp without time zone
+ott_acnt_prfl,tphn_nbr,bigint
+ott_acnt_svcs_new,acnt_svcs_sk,bigint
+ott_acnt_svcs_new,acnt_sk,bigint
+ott_acnt_svcs_new,subsn_sk,bigint
+ott_acnt_svcs_new,pkg_sk,bigint
+ott_acnt_svcs_new,pln_sk,bigint
+ott_acnt_svcs_new,pkg_ver_uuid,bigint
+ott_acnt_svcs_new,pkg_ver_strt_dttm,timestamp without time zone
+ott_acnt_svcs_new,pkg_ver_end_dttm,timestamp without time zone
+ott_acnt_svcs_new,pkg_ver_sts_txt,character varying
+ott_acnt_svcs_new,pkg_ver_in_trl_ind,boolean
+ott_acnt_svcs_new,cur_ind,boolean
+ott_acnt_svcs_new,crtd_by,character varying
+ott_acnt_svcs_new,crtd_dttm,timestamp without time zone
+ott_acnt_svcs_new,updtd_by,character varying
+ott_acnt_svcs_new,updtd_dttm,timestamp without time zone
+ott_acnt_brwsr_fngr_prnts,subsn_sk,bigint
+ott_acnt_dvce_evnt,acnt_dvce_evnt_sk,bigint
+ott_acnt_dvce_evnt,brwsr_sk,integer
+ott_acnt_dvce_evnt,acnt_sk,bigint
+ott_acnt_dvce_evnt,act_cls_cd,character varying
+ott_acnt_dvce_evnt,dvce_char_sk,bigint
+ott_acnt_dvce_evnt,cart_cd,character varying
+ott_acnt_dvce_evnt,clfn_cd,character varying
+ott_acnt_dvce_evnt,clnt_ip_addr,character varying
+ott_acnt_dvce_evnt,src_creat_dttm,timestamp without time zone
+ott_acnt_dvce_evnt,src_creat_dt,date
+ott_acnt_dvce_evnt,crtd_by,character varying
+ott_acnt_dvce_evnt,crtd_dttm,timestamp without time zone
+ott_acnt_dvce_evnt,updtd_by,character varying
+ott_acnt_dvce_evnt,updtd_dttm,timestamp without time zone
+ott_invce,extnd_bll_cycl_ind,boolean
+ott_acnt_dba,acnt_sk,bigint
+ott_acnt_dba,acnt_id,character varying
+ott_acnt_dba,ums_usr_id,integer
+ott_acnt_dba,acnt_frst_nm,character varying
+ott_acnt_dba,acnt_lst_nm,character varying
+ott_acnt_dba,acnt_crtn_dttm,timestamp without time zone
+ott_acnt_dba,acnt_crtn_dt,date
+ott_acnt_dba,dsh_acnt_sk,integer
+ott_acnt_dba,ums_acnt_orig_crtn_dttm,timestamp without time zone
+ott_acnt_dba,ums_acnt_orig_crtn_dt,date
+ott_acnt_dba,ums_acnt_actvtn_dttm,timestamp without time zone
+ott_acnt_dba,ums_acnt_actvtn_dt,date
+ott_acnt_dba,axm_usr_id,integer
+ott_acnt_dba,prtnr_usr_id,character varying
+ott_acnt_dba,src_cd,character varying
+ott_acnt_dba,bgn_eff_dt,date
+ott_acnt_dba,endg_eff_dt,date
+ott_acnt_dba,cur_ind,boolean
+ott_acnt_dba,crtd_by,character varying
+ott_acnt_dba,crtd_dttm,timestamp without time zone
+ott_acnt_dba,updtd_by,character varying
+ott_acnt_dba,updtd_dttm,timestamp without time zone
+ott_acnt_dba,pri_lang_txt,character varying
+ott_acnt_dba,cur_bll_cycl_nbr,integer
+ott_pln,sub_rpt_ctgry,character varying
+ott_acnt_new_rstrt_actv_stg_vw,acnt_sk,bigint
+ott_acnt_new_rstrt_actv_stg_vw,drvd_acnt_orig_actvtn_dt,date
+ott_acnt_new_rstrt_actv_stg_vw,drvd_acnt_actvtn_dt,date
+ott_acnt_new_rstrt_actv_stg_vw,drvd_acnt_dcnct_dt,date
+ott_acnt_new_rstrt_actv_stg_vw,bgn_eff_dt,date
+ott_acnt_new_rstrt_actv_stg_vw,endg_eff_dt,date
+ott_acnt_new_rstrt_actv_stg_vw,cur_ind,boolean
+ott_acnt_new_rstrt_actv_stg_vw,new_actv_dt,date
+ott_acnt_new_rstrt_actv_stg_vw,new_rstrt_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,acnt_sk,bigint
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_orig_actvtn_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_orig_actvtn_tm,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_actvtn_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_actvtn_tm,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_dcnct_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_dcnct_tm,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_xncl_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_xncl_tm,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_rll_to_pay_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_rll_to_pay_tm,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_acnt_sts_cd,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,acnt_typ_cd,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,fr_trl_ind,boolean
+ott_acnt_new_rstrt_actv_stg1_vw,pyng_ind,boolean
+ott_acnt_new_rstrt_actv_stg1_vw,frmr_typ_cd,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,fr_pyng_ind,boolean
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_fr_pyng_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,drvd_fr_pyng_tm,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,acnt_core_typ_cd,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,acnt_add_on_typ_cd,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,bgn_eff_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,endg_eff_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,cur_ind,boolean
+ott_acnt_new_rstrt_actv_stg1_vw,crtd_by,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,crtd_dttm,timestamp without time zone
+ott_acnt_new_rstrt_actv_stg1_vw,updtd_by,character varying
+ott_acnt_new_rstrt_actv_stg1_vw,updtd_dttm,timestamp without time zone
+ott_acnt_new_rstrt_actv_stg1_vw,new_actv_dt,date
+ott_acnt_new_rstrt_actv_stg1_vw,new_rstrt_dt,date
+ott_acnt_new_rstrt_actv_vw,acnt_sk,bigint
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_orig_actvtn_dt,date
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_orig_actvtn_tm,character varying
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_actvtn_dt,date
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_actvtn_tm,character varying
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_dcnct_dt,date
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_dcnct_tm,character varying
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_xncl_dt,date
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_xncl_tm,character varying
+ott_acnt_new_rstrt_actv_vw,drvd_rll_to_pay_dt,date
+ott_acnt_new_rstrt_actv_vw,drvd_rll_to_pay_tm,character varying
+ott_acnt_new_rstrt_actv_vw,drvd_acnt_sts_cd,character varying
+ott_acnt_new_rstrt_actv_vw,acnt_typ_cd,character varying
+ott_acnt_new_rstrt_actv_vw,fr_trl_ind,boolean
+ott_acnt_new_rstrt_actv_vw,pyng_ind,boolean
+ott_acnt_new_rstrt_actv_vw,frmr_typ_cd,character varying
+ott_acnt_new_rstrt_actv_vw,fr_pyng_ind,boolean
+ott_acnt_new_rstrt_actv_vw,drvd_fr_pyng_dt,date
+ott_acnt_new_rstrt_actv_vw,drvd_fr_pyng_tm,character varying
+ott_acnt_new_rstrt_actv_vw,acnt_core_typ_cd,character varying
+ott_acnt_new_rstrt_actv_vw,acnt_add_on_typ_cd,character varying
+ott_acnt_new_rstrt_actv_vw,bgn_eff_dt,date
+ott_acnt_new_rstrt_actv_vw,endg_eff_dt,date
+ott_acnt_new_rstrt_actv_vw,cur_ind,boolean
+ott_acnt_new_rstrt_actv_vw,crtd_by,character varying
+ott_acnt_new_rstrt_actv_vw,crtd_dttm,timestamp without time zone
+ott_acnt_new_rstrt_actv_vw,updtd_by,character varying
+ott_acnt_new_rstrt_actv_vw,updtd_dttm,timestamp without time zone
+ott_acnt_new_rstrt_actv_vw,new_actv_dt,date
+ott_acnt_new_rstrt_actv_vw,new_rstrt_dt,date
+ott_acnt_eqpmt_inst,acnt_eqpmt_inst_sk,bigint
+ott_acnt_eqpmt_inst,eqpmt_sk,bigint
+ott_acnt_eqpmt_inst,thrd_prty_cust_sk,bigint
+ott_acnt_eqpmt_inst,eqpmt_prcshe_dttm,timestamp without time zone
+ott_acnt_eqpmt_inst,eqpmt_rgstr_dttm,timestamp without time zone
+ott_acnt_eqpmt_inst,bgn_eff_dt,date
+ott_acnt_eqpmt_inst,endg_eff_dt,date
+ott_acnt_eqpmt_inst,cur_ind,boolean
+ott_acnt_eqpmt_inst,crtd_by,character varying
+ott_acnt_eqpmt_inst,crtd_dttm,timestamp without time zone
+ott_acnt_eqpmt_inst,updtd_by,character varying
+ott_acnt_eqpmt_inst,updtd_dttm,timestamp without time zone
+ott_txn,txn_desc,character varying
+ott_cpn,tkn,character varying
+ott_txn,fail_typ_cd,character varying
+ott_txn_rspn_ctg,fail_typ_cd,character varying
+ott_acnt_key,acnt_nk,character varying
+ott_brwsr,brwsr_typ_cd,character varying
+ott_media_svc_stndlon_pkg_lst,pkg_guid,character varying
+ott_media_svc_stndlon_pkg_lst,pkg_nm,character varying
+ott_media_svc_stndlon_pkg_lst,crtd_by,character varying
+ott_media_svc_stndlon_pkg_lst,crtd_dttm,timestamp without time zone
+ott_media_svc_stndlon_pkg_lst,updtd_by,character varying
+ott_media_svc_stndlon_pkg_lst,updtd_dttm,timestamp without time zone
+ott_invce_dtl,cpn_cd,character varying
+ott_pln_offr,pln_offr_sk,bigint
+ott_pln_offr,pln_sk,integer
+ott_pln_offr,pln_offr_cd,character varying
+ott_pln_offr,pln_offr_cd_ctg,character varying
+ott_pln_offr,offr_typ,character varying
+ott_pln_offr,dur_typ,character varying
+ott_pln_offr,dur_lnth,integer
+ott_pln_offr,dur_unt_cd,character varying
+ott_pln_offr,dur_dt_tm,timestamp without time zone
+ott_pln_offr,disc_amt,numeric
+ott_pln_offr,disc_typ,character varying
+ott_pln_offr,stair_case,character varying
+ott_pln_offr,bus_rul_ind,boolean
+ott_pln_offr,app_supported,character varying
+ott_pln_offr,dat_src_cd,character varying
+ott_pln_offr,crtd_by,character varying
+ott_pln_offr,crtd_dttm,timestamp without time zone
+ott_pln_offr,updtd_by,character varying
+ott_pln_offr,updtd_dttm,timestamp without time zone
+ott_bndl_pkg_xref,lite_guid_id,character varying
+ott_bndl_pkg_xref,chld_pkg_sk,integer
+ott_bndl_pkg_xref,id_nm,character varying
+ott_bndl_pkg_xref,typ,character varying
+ott_bndl_pkg_xref,dat_src_cd,character varying
+ott_bndl_pkg_xref,crtd_by,character varying
+ott_bndl_pkg_xref,crtd_dttm,timestamp without time zone
+ott_bndl_pkg_xref,updtd_by,character varying
+ott_bndl_pkg_xref,updtd_dttm,timestamp without time zone
+bndl_invce_xref,subsn_sk,integer
+bndl_invce_xref,invce_sk,integer
+bndl_invce_xref,acnt_sk,integer
+bndl_invce_xref,lite_guid_id,character varying
+bndl_invce_xref,chld_pkg_sk,integer
+bndl_invce_xref,crtd_by,character varying
+bndl_invce_xref,crtd_dttm,timestamp without time zone
+bndl_invce_xref,updtd_by,character varying
+bndl_invce_xref,updtd_dttm,timestamp without time zone
+ott_pln,dat_src_cd,character varying
+ott_pln,pln_id,character varying
+ott_pln,intvl_unt_cd,character varying
+ott_pln,futr_pln,character varying
+ott_pln,src_pln_actv_ind,boolean
+ott_pln,pln_prity_nbr,integer
+ott_acnt_subsn,clnt_nm,character varying
+ott_acnt_subsn,pln_offr_sk,bigint
+ott_enttlmnt_act,ott_enttlmnt_act_src_key,bigint
+ott_acnt_dvce_imprsn,evnt_dt,date
+ott_invce_dtl,invce_sk,bigint
+ott_drvd_acnt_prfl,bgn_eff_dt,date
+ott_txn,txn_dt,date
+ott_acnt,acnt_sk,bigint
+ott_cpn,cpn_sk,bigint
+ott_acnt_prfl,bgn_eff_dt,date
+ott_web_act,act_dt,date
+ott_invce,invce_bll_dt,date
+ott_acnt_sum,ss_dt,date
+ott_acnt_accrl_mo,accrl_mo_end_dt,date
+ott_acnt_dvce_imprsn,dvce_id,character varying
+ott_acnt_dvce_imprsn,dvce_mk_nm,character varying
+ott_acnt_dvce_imprsn,dvce_mdl_nm,character varying
+ott_acnt_dvce_imprsn,dvce_oprtg_sys_nm,character varying
+ott_acnt_dvce_imprsn,dvce_oprtg_sys_ver_nbr,character varying
+ott_acnt_dvce_imprsn,dvce_pltfm_nm,character varying
+ott_acnt_dvce_imprsn,dvce_pltfm_ver_nbr,character varying
+ott_enttlmnt_act_hist,ott_enttlmnt_act_hist_sk,bigint
+ott_enttlmnt_act_hist,enttlmnt_sk,integer
+ott_enttlmnt_act_hist,acnt_sk,bigint
+ott_enttlmnt_act_hist,enttlmnt_act_src_key,bigint
+ott_enttlmnt_act_hist,bndl_cmbo_nm,character varying
+ott_enttlmnt_act_hist,pkg_guid,character varying
+ott_enttlmnt_act_hist,bndl_cmbo_id,character varying
+ott_enttlmnt_act_hist,creat_dttm,timestamp without time zone
+ott_enttlmnt_act_hist,suspndd_dttm,timestamp without time zone
+ott_enttlmnt_act_hist,bgn_eff_dt,date
+ott_enttlmnt_act_hist,endg_eff_dt,date
+ott_enttlmnt_act_hist,cur_ind,integer
+ott_enttlmnt_act_hist,crtd_by,character varying
+ott_enttlmnt_act_hist,crtd_dttm,timestamp with time zone
+ott_enttlmnt_act_hist,updtd_by,character varying
+ott_enttlmnt_act_hist,updtd_dttm,timestamp with time zone
+ott_dvce_usg,acnt_sk,bigint
+ott_acnt_brwsr_fngr_prnts,acnt_sk,bigint
+ott_invce_dtl,invce_ln_itm_end_dttm,timestamp without time zone
+ott_drvd_acnt_prfl,drvd_acntng_actvtn_typ_cd,character varying
+ott_drvd_acnt_prfl,drvd_tst_acnt_ind,boolean
+ott_drvd_acnt_prfl,drvd_5_dlr_acnt_ind,boolean
+ott_acnt_accrl_mo_summary,accrl_mo_end_dt,date
+ott_acnt_accrl_mo_summary,acnt_sk,bigint
+ott_acnt_accrl_mo_summary,chrg_dttm,timestamp without time zone
+ott_acnt_accrl_mo_summary,chrg_dt,date
+ott_acnt_accrl_mo_summary,pln_sk,integer
+ott_acnt_accrl_mo_summary,pkg_sk,integer
+ott_acnt_accrl_mo_summary,enttlmnt_sk,integer
+ott_acnt_accrl_mo_summary,txn_typ_cd,character varying
+ott_acnt_accrl_mo_summary,chrg_typ_cd,character varying
+ott_acnt_accrl_mo_summary,ln_of_bus_cd,character varying
+ott_acnt_accrl_mo_summary,gl_pkg_ctg_sk,integer
+ott_acnt_accrl_mo_summary,chrg_rsn_cd,character varying
+ott_acnt_accrl_mo_summary,invce_sk,bigint
+ott_acnt_accrl_mo_summary,invce_dtl_sk,bigint
+ott_acnt_accrl_mo_summary,txn_invce_sk,bigint
+ott_acnt_accrl_mo_summary,svc_strt_dt,date
+ott_acnt_accrl_mo_summary,svc_end_dt,date
+ott_acnt_accrl_mo_summary,amt,numeric
+ott_acnt_accrl_mo_summary,prtd_dy_cnt,numeric
+ott_acnt_accrl_mo_summary,ernd_rev_dy_cnt,numeric
+ott_acnt_accrl_mo_summary,unernd_rev_dy_cnt,numeric
+ott_acnt_accrl_mo_summary,dly_prtd_amt,numeric
+ott_acnt_accrl_mo_summary,ernd_amt,numeric
+ott_acnt_accrl_mo_summary,unernd_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_fair_prc_ind,boolean
+ott_acnt_accrl_mo_summary,fair_val_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_fair_val_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_ernd_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_unernd_amt,numeric
+ott_acnt_accrl_mo_summary,grss_amt,numeric
+ott_acnt_accrl_mo_summary,disc_amt,numeric
+ott_acnt_accrl_mo_summary,dly_prtd_grss_amt,numeric
+ott_acnt_accrl_mo_summary,dly_prtd_disc_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_ernd_grss_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_ernd_disc_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_unernd_grss_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_unernd_disc_amt,numeric
+ott_acnt_accrl_mo_summary,ernd_grss_amt,numeric
+ott_acnt_accrl_mo_summary,ernd_disc_amt,numeric
+ott_acnt_accrl_mo_summary,unernd_grss_amt,numeric
+ott_acnt_accrl_mo_summary,unernd_disc_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_ernd_grss_tx_amt,numeric
+ott_acnt_accrl_mo_summary,bas_pkg_ln_of_bus_cd,character varying
+ott_acnt_accrl_mo_summary,rltv_ernd_agnt_eqpmt_disc_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_unernd_agnt_eqpmt_disc_amt,numeric
+ott_acnt_accrl_mo_summary,agnt_eqpmt_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_agnt_ernd_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_agnt_unernd_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_agnt_ernd_grss_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_agnt_unernd_grss_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_agnt_ernd_disc_amt,numeric
+ott_acnt_accrl_mo_summary,rltv_agnt_unernd_disc_amt,numeric
+ott_acnt_accrl_mo_summary,crtd_by,character varying
+ott_acnt_accrl_mo_summary,crtd_dttm,timestamp without time zone
+ott_acnt_accrl_mo_summary,updtd_by,character varying
+ott_acnt_accrl_mo_summary,updtd_dttm,timestamp without time zone
+ott_pkg,data_source_code,character varying
